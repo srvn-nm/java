@@ -145,11 +145,6 @@ public class MusicCollection
     {
         // The return value.
         // Set according to whether the index is valid or not.
-        if (index >= 0 && index < files.size()){
-            return true;
-        }
-        else {
-            return false;
-        }
+        return index >= 0 && index < files.size();
     }
 }
