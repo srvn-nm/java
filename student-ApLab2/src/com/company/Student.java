@@ -30,6 +30,8 @@ public class Student {
         return this.firstName;
     }
 
+    public int getGrade(){return this.grade;}
+
     /**
      * This method will set student's first name.
      * @param fName

@@ -69,16 +69,10 @@ public class StudentLab {
      */
     public int getAvg() {
         int average = 0;
-        this.avg = average;
-        return average;
-    }
-
-    /**
-     * This method will calculate the average.
-     */
-    public void calculateAvg() {
-        float avr = (float)(this.avg / this.currentSize);
-        System.out.println(avr);
+        for (int i = 0; i< currentSize;i++){
+            average += students[i].getGrade();
+        }
+        return average/ this.currentSize;
     }
 
     /**
