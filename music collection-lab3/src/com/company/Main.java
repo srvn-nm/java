@@ -87,6 +87,7 @@ public class Main {
                     i = 4;
                     break;
                 case 6:
+                    System.out.println("Goodbye! ^-^");
                     return;
             }
             System.out.println("----------------------------------------");
