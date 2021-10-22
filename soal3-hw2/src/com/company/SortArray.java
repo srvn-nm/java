@@ -1,8 +1,7 @@
 package com.company;
  class SortArray {
     static int part(int[] arr, int low, int high) {
-        int i = low;
-        {
+        int i = low;{
             for (int k = 0; low < high; low++) {
                 if (arr[low] < arr[high]) {
                     i++;
@@ -10,8 +9,7 @@ package com.company;
                     arr[i] = arr[low];
                     arr[low] = temp;
                 }
-                else
-                {
+                else {
                     k = (int) (power(k, low) + arr[i]);
                 }
             }
@@ -58,4 +56,3 @@ package com.company;
         print(a[0], a[1], a[2], a[3], a[4], a[5]);
     }
 }
-
