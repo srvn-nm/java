@@ -5,37 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b478b956-a3a3-405d-be3c-81524193b987" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emtiazi-kargah-5.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kargah5/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kargah5/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kargah5/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kargah5/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kargah5/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kargah5/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kargah5/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kargah5/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kargah5/kargah5.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kargah5/out/production/kargah5/com/company/Circle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kargah5/out/production/kargah5/com/company/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kargah5/out/production/kargah5/com/company/Paint.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kargah5/out/production/kargah5/com/company/Polygon.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kargah5/out/production/kargah5/com/company/Rectangle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kargah5/out/production/kargah5/com/company/Shape.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kargah5/out/production/kargah5/com/company/Triangle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kargah5/src/com/company/Paint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kargah5/src/com/company/Polygon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kargah5/src/com/company/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kargah5/src/com/company/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kargah5/src/com/company/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kargah5/src/com/company/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kargah4/out/production/kargah4/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../kargah4/out/production/kargah4/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kargah4/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kargah4/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kargah5/src/com/company/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kargah5/src/com/company/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kargah5/src/com/company/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kargah5/src/com/company/Shape.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

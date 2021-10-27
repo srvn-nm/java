@@ -72,9 +72,10 @@ class Main{
                     System.out.println("Enter your choices here :");
                     for (int j = 0; j < maxChoices; j++)
                         choices.add(scan.next());
+                    Scanner scan1 = new Scanner(System.in);
                     System.out.println("write the question you want to add :");
                     System.out.println("if you want the voting system to be one-option enter 0, else enter 1");
-                    votingSystem2.createVoting(scan.next(), scan.nextInt(), choices);
+                    votingSystem2.createVoting(scan1.nextLine(), scan.nextInt(), choices);
                     System.out.println();
                     System.out.println("Printing voting question : ");
                     System.out.println("------------------");

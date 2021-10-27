@@ -46,6 +46,7 @@ public class Rectangle extends Polygon {
     @Override
     public double calculateArea()
     {
+        //This method will calculate the area without noticing the max and min sides.
         return Math.sqrt(sides.get(0) * sides.get(1) * sides.get(2) * sides.get(3) );
     }
 
