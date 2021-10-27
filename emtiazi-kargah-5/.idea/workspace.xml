@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b478b956-a3a3-405d-be3c-81524193b987" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emtiazi-kargah-5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kargah5/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kargah5/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kargah5/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kargah5/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kargah5/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kargah5/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kargah5/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kargah5/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kargah5/kargah5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kargah5/out/production/kargah5/com/company/Circle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kargah5/out/production/kargah5/com/company/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kargah5/out/production/kargah5/com/company/Paint.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kargah5/out/production/kargah5/com/company/Polygon.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kargah5/out/production/kargah5/com/company/Rectangle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kargah5/out/production/kargah5/com/company/Shape.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kargah5/out/production/kargah5/com/company/Triangle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kargah5/src/com/company/Paint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kargah5/src/com/company/Polygon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kargah5/src/com/company/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kargah5/src/com/company/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kargah5/src/com/company/Triangle.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="205gVu11KaFH2LcwIkU7AKU56qN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="company" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="emtiazi-kargah-5" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b478b956-a3a3-405d-be3c-81524193b987" name="Changes" comment="" />
+      <created>1635339891394</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1635339891394</updated>
+      <workItem from="1635339893037" duration="594000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
