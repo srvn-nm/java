@@ -4,7 +4,6 @@ import java.util.*;
 /**
  * this class represents a Voting with 2 types : first that each person can give just one Vote
  * and second that Voter can give even more than one Vote.
- *
  * @author Sarvin Nami
  */
 

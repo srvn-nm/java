@@ -1,9 +1,5 @@
 package com.company;
 import java.util.*;
-/**
- * the VotingSystem class manages the Voting process and creates or removes a Voting.
- * @author Sarvin Nami
- */
 class Main{
 
     public static void main(String[] args) {
@@ -36,7 +32,6 @@ class Main{
 
         votes3.add("are");
 
-
         //voting with a random choice.
         votes4.add("yekshanbe");
 
@@ -62,21 +57,23 @@ class Main{
             Scanner scan = new Scanner(System.in);
             switch (scan.nextInt()) {
                 case 1:
-                    System.out.println("Enter your FirstName :");
+                    System.out.println("Enter your Name :");
                     List<Person> personList = new ArrayList<Person>();
                     personList.add(new Person(scan.next(), scan.next()));
+                    System.out.println("ُSuccessfully added!");
                     i = 0;
                     break;
                 case 2:
                     Person person1 = new Person("Sarvin", "Nami");
                     Person person2 = new Person("Sara", "Habibi");
-                    System.out.println("write the number of choices you want to add. :");
+                    System.out.println("write the number of choices you want to add :");
                     ArrayList<String> choices = new ArrayList<String>();
                     int maxChoices = scan.nextInt();
+                    System.out.println("Enter your choices here :");
                     for (int j = 0; j < maxChoices; j++)
                         choices.add(scan.next());
-                    System.out.println("write the question you want to add. :");
-                    System.out.println("if you want the voting system to be on-option enter 0, else enter 1");
+                    System.out.println("write the question you want to add :");
+                    System.out.println("if you want the voting system to be one-option enter 0, else enter 1");
                     votingSystem2.createVoting(scan.next(), scan.nextInt(), choices);
                     System.out.println();
                     System.out.println("Printing voting question : ");
@@ -145,10 +142,12 @@ class Main{
                     i = 2;
                     break;
                 case 4:
+                    System.out.println("Enter the number of voting :");
                     votingSystem2.removeVoting(scan.nextInt() - 1);
                     i = 3;
                     break;
                 case 5:
+                    System.out.println("Goodbye ^-^ !");
                     return;
             }
         }

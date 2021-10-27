@@ -1,14 +1,15 @@
 package com.company;
-
 import java.util.*;
-
+/**
+ * the VotingSystem class manages the Voting process and creates or removes a Voting.
+ * @author Sarvin Nami
+ */
 public class VotingSystem {
     //list of created Voting.
     ArrayList<Voting> votingList = new ArrayList<Voting>();
 
     /**
      * the printVoting method takes an index and prints Voting'question and choices.
-     *
      * @param index index of Voting in votingList.
      */
     public void printVoting(int index) {
