@@ -5,23 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b478b956-a3a3-405d-be3c-81524193b987" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../kargah5/src/com/company/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Courses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Professor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kargah4/out/production/kargah4/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../kargah4/out/production/kargah4/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kargah4/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kargah4/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kargah5/src/com/company/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kargah5/src/com/company/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kargah5/src/com/company/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kargah5/src/com/company/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="205gVu11KaFH2LcwIkU7AKU56qN" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
@@ -99,6 +109,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -108,11 +123,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1635339891394</updated>
-      <workItem from="1635339893037" duration="594000" />
+      <workItem from="1635339893037" duration="9917000" />
+      <workItem from="1635366736560" duration="1976000" />
+      <workItem from="1635409324533" duration="4694000" />
+      <workItem from="1635607066476" duration="16254000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
