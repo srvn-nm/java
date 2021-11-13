@@ -5,13 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b478b956-a3a3-405d-be3c-81524193b987" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/Courses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Professor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../q4-hw3/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../q4-hw3/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../q4-hw3/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../q4-hw3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../q4-hw3/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../q4-hw3/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../q4-hw3/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../q4-hw3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../q4-hw3/q4-hw3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../q4-hw3/src/com/company/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../q5-hw3/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../q5-hw3/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../q5-hw3/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../q5-hw3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../q5-hw3/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../q5-hw3/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../q5-hw3/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../q5-hw3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../q5-hw3/q5-hw3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../q5-hw3/src/com/company/Basket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../q5-hw3/src/com/company/Inventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../q5-hw3/src/com/company/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saf-sina-ds-hw2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saf-sina-ds-hw2/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saf-sina-ds-hw2/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saf-sina-ds-hw2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saf-sina-ds-hw2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saf-sina-ds-hw2/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saf-sina-ds-hw2/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saf-sina-ds-hw2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saf-sina-ds-hw2/saf-sina-ds-hw2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saf-sina-ds-hw2/src/com/company/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saf-sina-ds-hw2/src/com/company/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,6 +154,8 @@
       <workItem from="1635366736560" duration="1976000" />
       <workItem from="1635409324533" duration="4694000" />
       <workItem from="1635607066476" duration="16254000" />
+      <workItem from="1635692785261" duration="79000" />
+      <workItem from="1635941784592" duration="2583000" />
     </task>
     <servers />
   </component>
