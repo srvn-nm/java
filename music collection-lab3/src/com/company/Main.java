@@ -66,29 +66,30 @@ public class Main {
             String name = "name";
             int inputMenu = scan.nextInt();
             switch (inputMenu) {
-                case 1:
+                case 1 -> {
                     i = 0;
                     name = "POP";
-                    break;
-                case 2:
+                }
+                case 2 -> {
                     i = 1;
                     name = "JAZZ";
-                    break;
-                case 3:
+                }
+                case 3 -> {
                     i = 2;
                     name = "ROCK";
-                    break;
-                case 4:
+                }
+                case 4 -> {
                     i = 3;
                     name = "COUNTRY";
-                    break;
-                case 5:
+                }
+                case 5 -> {
                     name = "FAVORITES";
                     i = 4;
-                    break;
-                case 6:
+                }
+                case 6 -> {
                     System.out.println("Goodbye! ^-^");
                     return;
+                }
             }
             System.out.println("----------------------------------------");
             if (name.equals("COUNTRY")) System.out.println("|                " + name + "               |");
@@ -98,40 +99,35 @@ public class Main {
             System.out.println("----------------------------------------");
             showMenu2();
             switch (scan.nextInt()) {
-                case 1:
+                case 1 -> {
                     System.out.println("Enter your music File Name :");
                     fileName = scan.next();
                     System.out.println("Enter your music Singer Name :");
                     singer = scan.next();
                     System.out.println("Enter your music Release Year :");
                     year = scan.nextInt();
-
                     if (i != 4) {
                         System.out.println("Do you want to add this music in your favorite list ? (yes or no)");
                         if (scan.next().equals("yes")) categories[4].addFile(fileName, singer, year);
                     }
                     categories[i].addFile(fileName, singer, year);
-                    break;
-                case 2:
+                }
+                case 2 -> {
                     System.out.println("Choose the music you want to remove :");
                     categories[i].listAllFiles();
                     categories[i].removeFile(scan.nextInt() - 1);
-                    break;
-                case 3:
-                    System.out.println("Number of musics in this category is : " + categories[i].getNumberOfFiles());
-                    break;
-                case 4:
+                }
+                case 3 -> System.out.println("Number of musics in this category is : " + categories[i].getNumberOfFiles());
+                case 4 -> {
                     System.out.print("Enter a number from 1 to " + categories[i].getNumberOfFiles() + " : ");
-                    categories[i].listFile(scan.nextInt()-1);
-                    break;
-                case 5:
+                    categories[i].listFile(scan.nextInt() - 1);
+                }
+                case 5 -> {
                     System.out.println("Enter the file name : ");
                     categories[i].searchMusic(scan.next());
-                    break;
-                case 6:
-                    categories[i].listAllFiles();
-                    break;
-                case 7:
+                }
+                case 6 -> categories[i].listAllFiles();
+                case 7 -> {
                     System.out.println("Choose a music to play : ");
                     categories[i].listAllFiles();
                     categories[i].startPlaying(scan.nextInt() - 1);
@@ -140,10 +136,8 @@ public class Main {
                     if (scan.nextInt() == 0) {
                         categories[i].stopPlaying();
                     }
-                    break;
-                case 8:
-                    System.out.println("Goodbye! ^-^\n");
-                    break;
+                }
+                case 8 -> System.out.println("Goodbye! ^-^\n");
             }
         }
     }
