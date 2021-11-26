@@ -8,12 +8,12 @@ import java.util.Date;
  * @version 001
  * @since late at night
  */
-public class New {
+public class News {
     private String title;
     private String body;
     private Date date;
 
-    public New(String title, String body,Date date){
+    public News(String title, String body, Date date){
         this.title=title;
         this.body=body;
         this.date=date;
@@ -21,7 +21,7 @@ public class New {
 
     /**
      * getter method
-     * @return date of new
+     * @return date of news
      */
     public Date getDate() {
         return date;
@@ -29,7 +29,7 @@ public class New {
 
     /**
      * getter method
-     * @return body of new
+     * @return body of news
      */
     public String getBody() {
         return body;
@@ -37,7 +37,7 @@ public class New {
 
     /**
      * getter method
-     * @return title of new
+     * @return title of news
      */
     public String getTitle() {
         return title;
@@ -45,7 +45,7 @@ public class New {
 
     @Override
     public String toString() {
-        return "New{" +
+        return "News{" +
                 "title='" + title + '\'' +
                 ", body='" + body + '\'' +
                 ", date=" + date +

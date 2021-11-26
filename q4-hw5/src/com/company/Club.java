@@ -17,9 +17,9 @@ public class Club {
     private ArrayList<Fan> matchFollower;
     private ArrayList<Fan> playersFollower;
     private ArrayList<Fan> clubFollower;
-    private ArrayList<New> matchState;
-    private ArrayList<New> playersState;
-    private ArrayList<New> clubState;
+    private ArrayList<News> matchState;
+    private ArrayList<News> playersState;
+    private ArrayList<News> clubState;
 
     /**
      * constructor
@@ -41,7 +41,7 @@ public class Club {
      * getter method
      * @return club state
      */
-    public ArrayList<New> getClubState() {
+    public ArrayList<News> getClubState() {
         return clubState;
     }
 
@@ -49,7 +49,7 @@ public class Club {
      * getter method
      * @return match state
      */
-    public ArrayList<New> getMatchState() {
+    public ArrayList<News> getMatchState() {
         return matchState;
     }
 
@@ -57,7 +57,7 @@ public class Club {
      * getter method
      * @return plater state
      */
-    public ArrayList<New> getPlayersState() {
+    public ArrayList<News> getPlayersState() {
         return playersState;
     }
 
@@ -137,7 +137,7 @@ public class Club {
      * this is setter method
      * @param news that have been recently released
      */
-    public void setClubState(New news){
+    public void setClubState(News news){
         clubState.add(news);
         notifySubscribersClub();
     }
@@ -145,7 +145,7 @@ public class Club {
      * this is setter method
      * @param news that have been recently released
      */
-    public void setPlayerState(New news){
+    public void setPlayerState(News news){
         playersState.add(news);
         notifySubscribersPlayers();
     }
@@ -153,7 +153,7 @@ public class Club {
      * this is setter method
      * @param news that have been recently released
      */
-    public void setMatchState(New news){
+    public void setMatchState(News news){
         matchState.add(news);
         notifySubscribersMatch();
     }
