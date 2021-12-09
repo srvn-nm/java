@@ -5,39 +5,49 @@ import java.util.ArrayList;
 
 /***
  * twitt class
- * @author Sarvin
+ * @author Sarvin , Abtin
  */
 public class Twitt {
     private String username;
-    private int likes;
+    private ArrayList<String> likes;
     private String text;
     private final String time;
-    private ArrayList<Twitt> retwitts;
+    private ArrayList<Twitt> replies;
 
     /**
      * constructor
-     * @param text
      */
-    public Twitt(String text){
-        this.text = text;
+    public Twitt(){
         this.time = LocalDateTime.now().format(DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss"));
-        retwitts = new ArrayList<Twitt>();
+        replies = new ArrayList<Twitt>();
+        likes = new ArrayList<String>();
     }
 
     /**
      * like getter method
      * @return likes
      */
-    public int getLikes() {
-        return likes;
+    public int getLikesNumber() {
+        return likes.size();
     }
-
     /**
-     * like setter method
-     * @param likes
+     * like getter method
      */
-    public void setLikes(int likes) {
-        this.likes = likes;
+    public void getLikes() {
+        if (likes.size() == 0)
+            System.out.println("nobody likes this twitt!");
+        else {
+            System.out.println("users like this twitt:");
+            for (String l:likes){
+                System.out.print(l+" ");
+            }
+        }
+    }
+    /**
+     * add like method
+     */
+    public void like(String userName) {
+        this.likes.add(userName);
     }
 
     /**
@@ -53,7 +63,10 @@ public class Twitt {
      * @param text
      */
     public void setText(String text) {
-        this.text = text;
+        if (text.toCharArray().length <= 256)
+            this.text = text;
+        else
+            System.out.println("Given text was more than 256 characters!\nTry again.");
     }
 
     /**
@@ -81,31 +94,48 @@ public class Twitt {
     }
 
     /**
-     * a method to add new retwitts to a twitt
-     * @param newRetwitt
+     * a method to add new replies to a twitt
+     * @param newReply
      */
-    public void addRetwitt(Twitt newRetwitt){
-        if (!retwitts.contains(newRetwitt)){
-            retwitts.add(newRetwitt);
-            System.out.println("Retwitt added successfully!");
+    public void addRetwitt(Twitt newReply){
+        if (!replies.contains(newReply)){
+            replies.add(newReply);
+            System.out.println("Reply added successfully!");
         }
         else
-            System.out.println("This retwitt has already been added!");
+            System.out.println("This reply has already been added!");
     }
 
     /**
-     * a method to remove a retwitt from a twitt
+     * a method to remove a reply from a twitt
      * @param rt
      */
-    public void removeRetwitt(Twitt rt){
-        if (retwitts.contains(rt)){
-            retwitts.remove(rt);
-            System.out.println("Retwitt removed successfully!");
+    public void removeReply(Twitt rt){
+        if (replies.contains(rt)){
+            replies.remove(rt);
+            System.out.println("Reply removed successfully!");
         }
         else
-            System.out.println("Retwitt was not found!");
+            System.out.println("Reply was not found!");
     }
+
+    /**
+     * to string method
+     * @return twitts with their retwitts
+     */
     public String toString(){
-        
+        StringBuilder res = new StringBuilder("| " + this.username + "    " + this.time + "\n| " + this.text+"\n");
+        for (Twitt rt : replies){
+            res.append("----").append(rt.toString());
+        }
+        return res.toString();
+    }
+
+    /**
+     * return the number of replies a twitt has
+     * @return replies.size()
+     */
+    public int repliesNumber(){
+        return replies.size();
     }
 }
