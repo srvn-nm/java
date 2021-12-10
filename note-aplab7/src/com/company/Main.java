@@ -1,4 +1,5 @@
 package com.company;
+
 import java.io.EOFException;
 import java.io.File;
 import java.io.IOException;
@@ -15,19 +16,20 @@ import static com.company.FileUtils.writeFileObject;
 public class Main {
     public static void main(String[] args) throws IOException, ClassNotFoundException {
         File file = new File("notes.ser");
-        while (true){
+        while (true) {
             System.out.println();
             System.out.println("*If you want to save a new note enter 1.********");
             System.out.println("*If you want to see title of the notes enter 2.*");
             System.out.println("*If you want to see a full note enter 3.********");
             System.out.println("*If you want to delete a note enter 4.**********");
-            System.out.println("*If you want to exit enter 5.*******************");
+            System.out.println("If you want to delete a file enter 5.**********");
+            System.out.println("*If you want to exit enter 6.*******************");
             Scanner in = new Scanner(System.in);
             int input = in.nextInt();
-            switch (input){
+            switch (input) {
                 case 1:
                     System.out.println("enter your note title and content.");
-                    Note note = new Note(in.next(),in.next(), DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss").format(LocalDateTime.now()));
+                    Note note = new Note(in.next(), in.next(), DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss").format(LocalDateTime.now()));
                     writeFileObject(note);
                     break;
                 case 2:
@@ -47,7 +49,7 @@ public class Main {
                         }
                     } catch (IOException e) {
                         e.printStackTrace();
-                    }finally {
+                    } finally {
                         assert read != null;
                         read.closeConnection();
                     }
@@ -74,6 +76,18 @@ public class Main {
                     deleteANote(title1);
                     break;
                 case 5:
+                    try {
+                        //file to be delete
+                        if (file.delete())                      //returns Boolean value
+                        {
+                            System.out.println(file.getName() + " deleted");   //getting and printing the file name
+                        } else {
+                            System.out.println("failed");
+                        }
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+                case 6:
                     return;
             }
         }

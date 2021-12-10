@@ -9,7 +9,7 @@ import java.util.ArrayList;
  */
 public class Twitt {
     private String username;
-    private ArrayList<String> likes;
+    public ArrayList<String> likes;
     private String text;
     private final String time;
     private ArrayList<Twitt> replies;
@@ -61,12 +61,14 @@ public class Twitt {
     /**
      * text setter method
      * @param text
+     * @return
      */
-    public void setText(String text) {
+    public Twitt setText(String text) {
         if (text.toCharArray().length <= 256)
             this.text = text;
         else
             System.out.println("Given text was more than 256 characters!\nTry again.");
+        return this;
     }
 
     /**
@@ -97,7 +99,7 @@ public class Twitt {
      * a method to add new replies to a twitt
      * @param newReply
      */
-    public void addRetwitt(Twitt newReply){
+    public void addReply(Twitt newReply){
         if (!replies.contains(newReply)){
             replies.add(newReply);
             System.out.println("Reply added successfully!");

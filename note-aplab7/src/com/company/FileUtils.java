@@ -171,10 +171,10 @@ public class FileUtils {
         PrintWriter pw = new PrintWriter("copy.ser");
         BufferedReader br1 = new BufferedReader(new FileReader("notes.ser"));
         String line1;
-        boolean flag = false;
         if (!note.getTitle().equals(title)) {
             line1 = br1.readLine();
             while (line1 != null) {
+                boolean flag = false;
                 String line2 = note.getTitle() + note.getDate() + note.getContent();
                 if (line1.equals(line2)){
                     flag= true;
@@ -200,6 +200,24 @@ public class FileUtils {
             br1.close();
             pw.close();
             System.out.println("deleting note successfully done.");
+        }
+    }
+
+    /**
+     * get the name of the file and delete it.
+     *
+     */
+    public void deleteFile(String filename){
+        try {
+            File f = new File(filename);           //file to be delete
+            if (f.delete())                      //returns Boolean value
+            {
+                System.out.println(f.getName() + " deleted");   //getting and printing the file name
+            } else {
+                System.out.println("failed");
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
         }
     }
 }
