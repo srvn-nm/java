@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="468eaa86-cb0a-4662-bafa-6ab321e94ed3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/artifacts/Twitter_Java_FX_ear_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/artifacts/Twitter_Java_FX_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/intellij-javadocs-4.0.1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/libraries/ConcurrencyUtilities_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/libraries/Hibernate_5_4_11_5_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/libraries/IceFaces_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/libraries/JAX_RS_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/libraries/JAX_WS_Glassfish___JAX_WS_2_2_RI___Metro_1_X___JWSDP_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/libraries/JAX_WS_Glassfish___JAX_WS_2_2_RI___Metro_1_X___JWSDP_2_2__2_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/libraries/JBoss_Weld_2_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/libraries/JavaeeSecurity_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/libraries/Maven__com_dlsc_formsfx_formsfx_core_11_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/libraries/Maven__eu_hansolo_tilesfx_11_48.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/libraries/Maven__net_synedra_validatorfx_0_1_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/libraries/Maven__org_controlsfx_controlsfx_11_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/libraries/Maven__org_kordamp_bootstrapfx_bootstrapfx_core_0_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/libraries/Maven__org_kordamp_ikonli_ikonli_core_12_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/libraries/Maven__org_kordamp_ikonli_ikonli_javafx_12_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/libraries/Maven__org_openjfx_javafx_base_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/libraries/Maven__org_openjfx_javafx_base_win_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/libraries/Maven__org_openjfx_javafx_controls_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/libraries/Maven__org_openjfx_javafx_controls_win_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/libraries/Maven__org_openjfx_javafx_fxml_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/libraries/Maven__org_openjfx_javafx_fxml_win_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/libraries/Maven__org_openjfx_javafx_graphics_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/libraries/Maven__org_openjfx_javafx_media_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/libraries/Maven__org_openjfx_javafx_media_win_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/libraries/Maven__org_openjfx_javafx_web_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/libraries/Maven__org_openjfx_javafx_web_win_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_conditionalcomments_Release.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_Release.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_springsecurity3_Release.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_springsecurity4_Release.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_tiles2_Release.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/libraries/Maven__org_thymeleaf_thymeleaf_Release.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring3_Release.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring4_Release.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/libraries/Maven__org_thymeleaf_thymeleaf_testing_Release.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/libraries/Mojarra_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/libraries/OpenFaces_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/libraries/PrimeFaces_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/libraries/Richfaces_4_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/libraries/Spring_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/libraries/Spring_Batch_2_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/libraries/Spring_Data_JPA_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/libraries/Spring_Integration_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/libraries/Spring_MVC_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/libraries/Spring_Security_5_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/libraries/Spring_Web_Services_2_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/libraries/Validation_API_2_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/libraries/WebSocket_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/libraries/groovy_4_0_0_rc_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/libraries/javax_batch_api_1_0_b17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/libraries/javax_jms_api_jar_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/libraries/javax_json_bind_api_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/libraries/javax_json_processing_1_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/libraries/javax_resource_api_1_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/libraries/javax_transaction_api_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/META-INF/application.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/Twitter Java FX.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/files/log/ClientRequest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/files/log/ServerResponse.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/files/model/chatroom/AbnC.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/files/model/chatroom/Chat1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/files/model/chatroom/JasonChat.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/files/model/tweets/Abn-0.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/files/model/tweets/Ahot-0.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/files/model/tweets/Alex-0.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/files/model/tweets/Alex-1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/files/model/tweets/AlxTIM-0.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/files/model/tweets/AlxTIM-1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/files/model/tweets/Asq-0.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/files/model/tweets/Asq-1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/files/model/tweets/abnZandi-0.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/files/model/tweets/asq-2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/files/model/tweets/null-0.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/files/model/tweets/q1-0.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/files/model/tweets/q1-1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/files/model/tweets/q1-2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/files/model/users/Abn.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/files/model/users/Ahot.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/files/model/users/Alex.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/files/model/users/AlxTIM.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/files/model/users/Aqq.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/files/model/users/Aqw.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/files/model/users/Asq.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/files/model/users/DaniRNY.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/files/model/users/DanyRNY2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/files/model/users/Gpack.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/files/model/users/Jimi2000.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/files/model/users/SmWill.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/files/model/users/abnZandi.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/files/model/users/q1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/files/model/users/qqa.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/files/model/users/qqq.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/files/model/users/qw.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/files/model/users/valav.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/files/model/users/w.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/files/model/users/williJ.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/ApacheLICENSE-2.0.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/CDDL-1.0.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/FastInfoset-1.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/FastInfoset.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/FastInoset.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/MIT-LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/NOTICE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/antlr-2.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/byte-buddy-1.10.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/cdi-api-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/cdi-api-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/cdi-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/classmate-1.5.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/commons-beanutils.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/commons-codec-1.3-license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/commons-collections.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/commons-collections_2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/commons-digester.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/commons-logging.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/cssparser-0.9.4-license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/cssparser.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/dojo-license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/dom4j-2.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/el-api-2.2.1-b03.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/el-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/gmbal-api-only.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/groovy-4.0.0-rc-2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/groovy-4.0.0-rc-2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/groovy-ant-4.0.0-rc-2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/groovy-ant-4.0.0-rc-2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/groovy-astbuilder-4.0.0-rc-2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/groovy-astbuilder-4.0.0-rc-2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/groovy-cli-commons-4.0.0-rc-2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/groovy-cli-commons-4.0.0-rc-2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/groovy-cli-picocli-4.0.0-rc-2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/groovy-cli-picocli-4.0.0-rc-2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/groovy-console-4.0.0-rc-2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/groovy-console-4.0.0-rc-2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/groovy-contracts-4.0.0-rc-2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/groovy-contracts-4.0.0-rc-2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/groovy-datetime-4.0.0-rc-2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/groovy-datetime-4.0.0-rc-2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/groovy-dateutil-4.0.0-rc-2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/groovy-dateutil-4.0.0-rc-2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/groovy-docgenerator-4.0.0-rc-2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/groovy-docgenerator-4.0.0-rc-2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/groovy-ginq-4.0.0-rc-2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/groovy-ginq-4.0.0-rc-2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/groovy-groovydoc-4.0.0-rc-2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/groovy-groovydoc-4.0.0-rc-2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/groovy-groovysh-4.0.0-rc-2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/groovy-groovysh-4.0.0-rc-2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/groovy-jmx-4.0.0-rc-2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/groovy-jmx-4.0.0-rc-2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/groovy-json-4.0.0-rc-2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/groovy-json-4.0.0-rc-2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/groovy-jsr223-4.0.0-rc-2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/groovy-jsr223-4.0.0-rc-2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/groovy-macro-4.0.0-rc-2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/groovy-macro-4.0.0-rc-2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/groovy-macro-library-4.0.0-rc-2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/groovy-macro-library-4.0.0-rc-2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/groovy-nio-4.0.0-rc-2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/groovy-nio-4.0.0-rc-2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/groovy-servlet-4.0.0-rc-2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/groovy-servlet-4.0.0-rc-2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/groovy-sql-4.0.0-rc-2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/groovy-sql-4.0.0-rc-2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/groovy-swing-4.0.0-rc-2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/groovy-swing-4.0.0-rc-2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/groovy-templates-4.0.0-rc-2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/groovy-templates-4.0.0-rc-2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/groovy-test-4.0.0-rc-2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/groovy-test-4.0.0-rc-2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/groovy-test-junit5-4.0.0-rc-2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/groovy-test-junit5-4.0.0-rc-2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/groovy-testng-4.0.0-rc-2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/groovy-testng-4.0.0-rc-2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/groovy-toml-4.0.0-rc-2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/groovy-toml-4.0.0-rc-2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/groovy-typecheckers-4.0.0-rc-2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/groovy-typecheckers-4.0.0-rc-2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/groovy-xml-4.0.0-rc-2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/groovy-xml-4.0.0-rc-2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/ha-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/hibernate-commons-annotations-5.1.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/hibernate-core-5.4.11.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/icefaces-ace.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/icefaces-compat.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/icefaces.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/icepush.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/istack-commons-runtime-3.0.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/jandex-2.1.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/javassist-3.24.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/javax.activation-api-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/javax.annotation.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/javax.annotation_2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/javax.annotation_3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/javax.batch-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/javax.enterprise.concurrent-api-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/javax.faces-2.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/javax.jms-api-2.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/javax.json-api-1.1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/javax.json.bind-api-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/javax.persistence-api-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/javax.resource-api-1.7.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/javax.security.auth.message-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/javax.security.enterprise-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/javax.security.enterprise.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/javax.security.jacc-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/javax.servlet.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/javax.servlet.jsp.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/javax.transaction-api-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/javax.websocket-api-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/javax.websocket-client-api-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/javax.ws.rs-api-2.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/jaxb-api-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/jaxb-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/jaxb-impl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/jaxb-runtime-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/jaxb-xjc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/jaxws-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/jaxws-rt.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/jaxws-tools.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/jboss-logging-3.3.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/jcommon.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/jdom-1.0-license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/jfreechart-license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/jfreechart.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/json-license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/jsr181-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/jstl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/jxl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/krysalis-jCharts-1.0.0-alpha-1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/lgpl.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/mail.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/management-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/mimepull.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/myfaces-license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/openfaces-license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/openfaces.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/poi-3.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/policy.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/portlet2-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/portletfaces-bridge-2.0.2-ice-7875.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/primefaces-6.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/primefaces-6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/redistribution.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/richfaces-components-api-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/richfaces-components-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/richfaces-components-ui-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/richfaces-components-ui.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/richfaces-core-api-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/richfaces-core-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/richfaces-core-impl-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/richfaces-core-impl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/saaj-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/saaj-impl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/sac.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-aop-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-aspects-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-batch-core-2.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-batch-infrastructure-2.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-beans-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-context-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-context-support-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-core-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-data-commons/2.2.4.RELEASE/spring-data-commons-2.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-data-jpa/2.2.4.RELEASE/spring-data-jpa-2.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-expression-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-instrument-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-integration-amqp/5.2.3.RELEASE/spring-integration-amqp-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-integration-core/5.2.3.RELEASE/spring-integration-core-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-integration-event/5.2.3.RELEASE/spring-integration-event-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-integration-feed/5.2.3.RELEASE/spring-integration-feed-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-integration-file/5.2.3.RELEASE/spring-integration-file-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-integration-ftp/5.2.3.RELEASE/spring-integration-ftp-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-integration-gemfire/5.2.3.RELEASE/spring-integration-gemfire-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-integration-groovy/5.2.3.RELEASE/spring-integration-groovy-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-integration-http/5.2.3.RELEASE/spring-integration-http-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-integration-ip/5.2.3.RELEASE/spring-integration-ip-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-integration-jdbc/5.2.3.RELEASE/spring-integration-jdbc-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-integration-jms/5.2.3.RELEASE/spring-integration-jms-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-integration-jmx/5.2.3.RELEASE/spring-integration-jmx-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-integration-jpa/5.2.3.RELEASE/spring-integration-jpa-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-integration-mail/5.2.3.RELEASE/spring-integration-mail-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-integration-mongodb/5.2.3.RELEASE/spring-integration-mongodb-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-integration-mqtt/5.2.3.RELEASE/spring-integration-mqtt-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-integration-redis/5.2.3.RELEASE/spring-integration-redis-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-integration-rmi/5.2.3.RELEASE/spring-integration-rmi-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-integration-scripting/5.2.3.RELEASE/spring-integration-scripting-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-integration-security/5.2.3.RELEASE/spring-integration-security-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-integration-sftp/5.2.3.RELEASE/spring-integration-sftp-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-integration-stream/5.2.3.RELEASE/spring-integration-stream-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-integration-syslog/5.2.3.RELEASE/spring-integration-syslog-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-integration-test/5.2.3.RELEASE/spring-integration-test-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-integration-twitter/5.0.9.RELEASE/spring-integration-twitter-5.0.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-integration-ws/5.2.3.RELEASE/spring-integration-ws-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-integration-xml/5.2.3.RELEASE/spring-integration-xml-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-integration-xmpp/5.2.3.RELEASE/spring-integration-xmpp-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-jdbc-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-jms-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-messaging-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-orm-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-oxm-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-security-acl/5.2.1.RELEASE/spring-security-acl-5.2.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-security-aspects/5.2.1.RELEASE/spring-security-aspects-5.2.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-security-cas/5.2.1.RELEASE/spring-security-cas-5.2.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-security-config/5.2.1.RELEASE/spring-security-config-5.2.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-security-core/5.2.1.RELEASE/spring-security-core-5.2.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-security-crypto/5.2.1.RELEASE/spring-security-crypto-5.2.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-security-ldap/5.2.1.RELEASE/spring-security-ldap-5.2.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-security-messaging/5.2.1.RELEASE/spring-security-messaging-5.2.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-security-oauth2-core/5.2.1.RELEASE/spring-security-oauth2-core-5.2.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-security-oauth2-resource-server/5.2.1.RELEASE/spring-security-oauth2-resource-server-5.2.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-security-openid/5.2.1.RELEASE/spring-security-openid-5.2.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-security-remoting/5.2.1.RELEASE/spring-security-remoting-5.2.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-security-taglibs/5.2.1.RELEASE/spring-security-taglibs-5.2.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-security-test/5.2.1.RELEASE/spring-security-test-5.2.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-security-web/5.2.1.RELEASE/spring-security-web-5.2.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-test-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-tx-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-web-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-webmvc-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/spring-ws.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/stax-ex-1.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/stax-ex.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/stax2-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/streambuffer.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/txw2-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/validation-api-2.0.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/weld-api-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/weld-api-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/weld-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/weld-core-impl-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/weld-core-impl-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/weld-core-impl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/weld-core-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/weld-core-jsf-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/weld-core-jsf-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/weld-core-jsf.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/weld-core-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/weld-core.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/weld-se-core-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/weld-se-core-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/weld-se-core.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/weld-se-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/weld-se.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/weld-servlet-core-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/weld-servlet-core-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/weld-servlet-core.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/weld-servlet-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/weld-servlet-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/weld-servlet.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/weld-spi-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/weld-spi-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/weld-spi.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/lib/woodstox-core-asl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/src/main/java/com/fxcode/twitterjavafx/FirstMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/src/main/java/com/fxcode/twitterjavafx/PaintOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/src/main/java/com/fxcode/twitterjavafx/ShowProfile.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/src/main/java/com/fxcode/twitterjavafx/ShowProfile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/src/main/java/com/fxcode/twitterjavafx/SignUpFirst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/src/main/java/com/fxcode/twitterjavafx/SignUpSecondPart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/src/main/java/example/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/src/main/java/org/ce/ap/com/company/client/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/src/main/java/org/ce/ap/com/company/client/ConsoleViewService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/src/main/java/org/ce/ap/com/company/server/impl/AuthenticationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/src/main/java/org/ce/ap/com/company/server/impl/ConnectionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/src/main/java/org/ce/ap/com/company/server/impl/ObserverService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/src/main/java/org/ce/ap/com/company/server/impl/TimeLineService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/src/main/java/org/ce/ap/com/company/server/impl/TweetingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/src/main/java/org/ce/ap/com/company/server/impl/TwitterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/src/main/java/org/ce/ap/com/company/server/model/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/src/main/java/org/ce/ap/com/company/server/model/Errortype.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/src/main/java/org/ce/ap/com/company/server/model/TimeLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/src/main/java/org/ce/ap/com/company/server/model/Tweet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/src/main/java/org/ce/ap/com/company/server/service/AccountFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/src/main/java/org/ce/ap/com/company/server/service/Authentication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/src/main/java/org/ce/ap/com/company/server/service/ChatRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/src/main/java/org/ce/ap/com/company/server/service/ChatRoomFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/src/main/java/org/ce/ap/com/company/server/service/ClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/src/main/java/org/ce/ap/com/company/server/service/Connections.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/src/main/java/org/ce/ap/com/company/server/service/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/src/main/java/org/ce/ap/com/company/server/service/SQLHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/src/main/java/org/ce/ap/com/company/server/service/SQLManagementService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/src/main/java/org/ce/ap/com/company/server/service/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/src/main/java/org/ce/ap/com/company/server/service/Setting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/src/main/java/org/ce/ap/com/company/server/service/TweetFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/src/main/java/org/ce/ap/com/company/server/service/Tweeting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/src/main/java/org/ce/ap/com/company/server/service/Twitter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/src/main/java/org/ce/ap/com/company/server/service/requestJSONHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/src/main/java/org/ce/ap/com/company/server/service/responseJSONHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/src/main/resources/Images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/src/main/resources/Images/unnamed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/src/main/resources/chatroom properties/chatroom.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/src/main/resources/com/fxcode/twitterjavafx/FirstMenu.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/src/main/resources/com/fxcode/twitterjavafx/LogIn.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/src/main/resources/com/fxcode/twitterjavafx/SignUpFirst.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/src/main/resources/com/fxcode/twitterjavafx/SignUpSecond.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/src/main/resources/com/fxcode/twitterjavafx/paint one.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/src/main/resources/json-simple-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/src/main/resources/setting properties/SettingProperties.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/src/main/resources/sqlite-jdbc-3.20.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/src/main/resources/tweet properties/New Text Document.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/src/main/resources/tweet properties/tweetProperties.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/src/main/resources/users properties/New Text Document.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/src/main/resources/users properties/userProperties.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/usersManager.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/web/WEB-INF/sun-jaxws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Twitter Java FX/web/index.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ds/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ds/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ds/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ds/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ds/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ds/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ds/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ds/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ds/ds.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx/.idea/intellij-javadocs-4.0.1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx/.idea/libraries/Maven__com_dlsc_formsfx_formsfx_core_11_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx/.idea/libraries/Maven__org_controlsfx_controlsfx_11_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx/.idea/libraries/Maven__org_kordamp_bootstrapfx_bootstrapfx_core_0_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx/.idea/libraries/Maven__org_openjfx_javafx_base_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx/.idea/libraries/Maven__org_openjfx_javafx_base_win_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx/.idea/libraries/Maven__org_openjfx_javafx_controls_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx/.idea/libraries/Maven__org_openjfx_javafx_controls_win_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx/.idea/libraries/Maven__org_openjfx_javafx_fxml_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx/.idea/libraries/Maven__org_openjfx_javafx_fxml_win_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx/.idea/libraries/Maven__org_openjfx_javafx_graphics_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx/calculator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx/src/main/java/com/example/javafx/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx/src/main/java/com/example/javafx/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx/src/main/resources/com/example/javafx/calc.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/antlr4_runtime_4_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_lang3_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_math3_3_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_text_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/dsiutils_2_6_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/fastutil_8_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/guava_29_0_jre.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jgrapht_core_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jgrapht_demo_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jgrapht_ext_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jgrapht_guava_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jgrapht_io_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jgrapht_opt_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jgrapht_unimi_dsi_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jgraphx_4_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jheaps_0_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jsap_20210129.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/slf4j_api_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sux4j_5_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/webgraph_3_6_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/webgraph_big_3_6_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/antlr4-runtime-4.8-1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-lang3-3.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-math3-3.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-text-1.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dsiutils-2.6.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/fastutil-8.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/guava-29.0-jre.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jgrapht-core-1.5.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jgrapht-demo-1.5.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jgrapht-ext-1.5.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jgrapht-guava-1.5.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jgrapht-io-1.5.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jgrapht-opt-1.5.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jgrapht-unimi-dsi-1.5.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jgraphx-4.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jheaps-0.13.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsap-20210129.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/logback-classic-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/logback-core-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/slf4j-api-1.7.30.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/sux4j-5.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/webgraph-3.6.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/webgraph-big-3.6.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/q1-ds-hw5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../twitter/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter/src/com/company/Twitt.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="23y9IV3c43DEeZubjCMDE88tDzD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="company" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/webgraph-big-3.6.6.jar" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="q1-ds-hw5" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="468eaa86-cb0a-4662-bafa-6ab321e94ed3" name="Changes" comment="" />
+      <created>1642695381840</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1642695381840</updated>
+      <workItem from="1642695383333" duration="2192000" />
+      <workItem from="1642705604363" duration="581000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="dsiutils-2.6.17">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/dsiutils-2.6.17.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,5 @@
+./files/model/tweets/abnZandi-0.txt
+./files/model/tweets/AlxTIM-0.txt
+./files/model/tweets/AlxTIM-1.txt
+./files/model/tweets/null-0.txt
+./files/model/tweets/Ahot-0.txt

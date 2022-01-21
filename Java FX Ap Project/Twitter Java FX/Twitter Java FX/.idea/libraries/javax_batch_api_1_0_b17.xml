@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="javax.batch-api-1.0-b17" type="BatchApplications">
+    <properties version="1.0-b17" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/javax.batch-api.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="Twitter Java FX:ear exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Twitter_Java_FX_ear_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Twitter Java FX/javaeeApplication/javaEEApplication" />
+      <element id="directory" name="web.war">
+        <element id="artifact" artifact-name="Twitter Java FX:war exploded" />
+      </element>
+    </root>
+  </artifact>
+</component>
