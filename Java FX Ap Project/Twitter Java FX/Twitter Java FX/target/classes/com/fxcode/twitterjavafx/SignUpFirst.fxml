@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SplitMenuButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="582.0" prefWidth="730.0" style="-fx-background-color: wh;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.fxcode.twitterjavafx.SignUpFirst">
+   <children>
+      <Pane prefHeight="134.0" prefWidth="730.0">
+         <children>
+            <ImageView fitHeight="97.0" fitWidth="106.0" layoutX="318.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Images/logo.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="14.0" layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create your account" wrappingWidth="352.53680419921875">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <TextField fx:id="LastName" layoutX="71.0" layoutY="247.0" prefHeight="43.0" prefWidth="605.0" promptText="Last Name">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <Button fx:id="NextFirstMenu" layoutX="97.0" layoutY="458.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="535.0" style="-fx-background-color: bac0c3;" text="Next" />
+      <TextField fx:id="Name" layoutX="71.0" layoutY="175.0" prefHeight="43.0" prefWidth="606.0" promptText="Name">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <Button fx:id="ExitButton" layoutX="652.0" layoutY="533.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="53.0" style="-fx-background-color: b7b7b7;" text="Exit">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <SplitMenuButton fx:id="Month" layoutX="70.0" layoutY="341.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="165.0" text="Month" textAlignment="CENTER">
+         <items>
+            <MenuItem mnemonicParsing="false" text="Action 1" />
+            <MenuItem mnemonicParsing="false" text="Action 2" />
+         </items>
+      </SplitMenuButton>
+      <SplitMenuButton fx:id="Day" layoutX="291.0" layoutY="341.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="165.0" text="Day">
+         <items>
+            <MenuItem mnemonicParsing="false" text="Action 1" />
+            <MenuItem mnemonicParsing="false" text="Action 2" />
+         </items>
+      </SplitMenuButton>
+      <SplitMenuButton fx:id="Year" layoutX="512.0" layoutY="341.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="165.0" text="Year">
+         <items>
+            <MenuItem mnemonicParsing="false" text="Action 1" />
+            <MenuItem mnemonicParsing="false" text="Action 2" />
+         </items>
+      </SplitMenuButton>
+   </children>
+</AnchorPane>
