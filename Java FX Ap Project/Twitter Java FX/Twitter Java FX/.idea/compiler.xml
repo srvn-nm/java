@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="TwitterJavaFX" />
         <module name="Twitter Java FX" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Twitter Java FX" target="16" />
+      <module name="TwitterJavaFX" target="16" />
     </bytecodeTargetLevel>
   </component>
 </project>

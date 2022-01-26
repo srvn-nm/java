@@ -1,4 +1,4 @@
-package org.ce.ap.com.company.client;
+package org.ce.ap.com.company.Client;
 
 import java.io.*;
 import java.net.Socket;
@@ -29,7 +29,7 @@ public class Client{
             //out put choice --> menu server
             OutputStream outputs = clientSocket.getOutputStream();
 
-            String FXMLAddress = viewService.consoleInputPrint(inputMenu,outputs);
+            viewService.consoleInputPrint(inputMenu,outputs);
 
         }catch (Exception runTimeError){
             runTimeError.printStackTrace();

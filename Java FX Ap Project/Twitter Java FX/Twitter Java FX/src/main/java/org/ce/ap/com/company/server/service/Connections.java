@@ -22,7 +22,7 @@ public class Connections implements ConnectionService {
         this.out=out;
     }
     /**
-     * this method will help us to use our clases and transfer details with users and client class
+     * this method will help us to use our classes and transfer details with users and client class
      * @return string for client side
      */
     public String inputStream(){

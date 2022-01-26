@@ -4,8 +4,12 @@ import org.ce.ap.com.company.server.impl.ObserverService;
 import org.ce.ap.com.company.server.model.Account;
 import org.ce.ap.com.company.server.model.TimeLine;
 import org.ce.ap.com.company.server.model.Tweet;
-
 import java.util.ArrayList;
+
+import javafx.fxml.FXML;
+import javafx.scene.control.Button;
+import javafx.scene.control.TextField;
+import javafx.scene.text.Text;
 
 /**
  * ObserverService class for search users' actions like :
@@ -22,6 +26,17 @@ public class Observer implements ObserverService {
     private TimeLine showingTable;
     private Tweeting tweeting;
     private AccountFile usersFileManger;
+
+    //Search
+    @FXML
+    private Button AllUserButton;
+    @FXML
+    private Button SearchButton;
+    @FXML
+    private TextField SearchUserName;
+    @FXML
+    private Text SearchUserNameWarning;
+
 
     /**
      * ObserverService constructor will make a new list of twitterUsers

@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Twitter Java FX.iml" filepath="$PROJECT_DIR$/Twitter Java FX.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TwitterJavaFX.iml" filepath="$PROJECT_DIR$/TwitterJavaFX.iml" />
     </modules>
   </component>
 </project>

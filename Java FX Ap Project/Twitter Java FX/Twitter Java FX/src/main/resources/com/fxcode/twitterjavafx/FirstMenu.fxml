@@ -25,11 +25,11 @@
     </Text>
 
     <Label fx:id="welcomeText" />
-    <Button alignment="CENTER" onAction="#onHelloButtonClick" prefHeight="47.0" prefWidth="321.0" style="-fx-background-color: #1c93c4;" text="Sign up" textAlignment="CENTER" textFill="WHITE">
+    <Button fx:id="SignUp" alignment="CENTER" onAction="#onHelloButtonClick" prefHeight="47.0" prefWidth="321.0" style="-fx-background-color: #1c93c4;" text="Sign up" textAlignment="CENTER" textFill="WHITE">
         <font>
             <Font name="System Bold" size="20.0" />
         </font></Button>
-    <Button alignment="CENTER" onAction="#onHelloButtonClick" prefHeight="47.0" prefWidth="319.0" style="-fx-background-color: #1c93c4;" text="Log In" textAlignment="CENTER" textFill="WHITE">
+    <Button fx:id="LogIn" alignment="CENTER" onAction="#onHelloButtonClick" prefHeight="47.0" prefWidth="319.0" style="-fx-background-color: #1c93c4;" text="Log In" textAlignment="CENTER" textFill="WHITE">
         <font>
             <Font name="System Bold" size="20.0" />
         </font>

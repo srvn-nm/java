@@ -8,7 +8,9 @@ import java.util.ArrayList;
 /**
  * this class will help us to control chats file
  */
+
 public class ChatRoomFile {
+
     private String propertiesPath = "./src/resources/chatroom properties/chatroom.txt";
 
     /**
@@ -86,14 +88,14 @@ public class ChatRoomFile {
         return ChatExist;
     }
 
-    public String chatDetails(String name){
+    public ArrayList <String> chatDetails(String name){
         String  path ="./files/model/chatroom/"+name+".txt";
-        String chats= "";
+        ArrayList<String> chats= new ArrayList<>();
         File file = new File(path);
         try(BufferedReader chat = new BufferedReader(new FileReader(file))){
             String str ;
             while ((str = chat.readLine()) != null){
-                chats+="\n"+str;
+                chats.add(str);
             }
         }
         catch (Exception error){

@@ -1,12 +1,21 @@
 package org.ce.ap.com.company.server.service;
 
+import javafx.event.ActionEvent;
 import org.ce.ap.com.company.server.impl.TwitterService;
 import org.ce.ap.com.company.server.model.Account;
 import org.ce.ap.com.company.server.model.Errortype;
 import org.ce.ap.com.company.server.model.TimeLine;
 import org.ce.ap.com.company.server.model.Tweet;
 
+import java.io.InputStream;
+import java.io.OutputStream;
 import java.util.ArrayList;
+
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import javafx.scene.control.Button;
+import javafx.scene.control.Label;
+import javafx.scene.layout.VBox;
 
 /**
  * sever class will help us to manage and control all the twitter sections
@@ -25,10 +34,27 @@ public class Twitter implements TwitterService {
     public int errorcode = 0;
     private final Setting setting;
 
+    private ClentFileHandler clientStatusHandlr ; //client status handler
+
+    //ChatRoomFirstMenu
+    @FXML
+    private Button ChatRoomMenuExit;
+    @FXML
+    private Button JoinChat;
+    @FXML
+    private VBox LogInWindow;
+    @FXML
+    private Button NewChat;
+    @FXML
+    private Label welcomeText;
+
+    //client nUmber
+    int clientNumber;
+
     /**
      *Server Constructor
      */
-    public Twitter(){
+    public Twitter(int clientNumber){
         service = new Authentication();
         twitterUsers = new ArrayList<>();
         browser = new Observer();
@@ -37,65 +63,30 @@ public class Twitter implements TwitterService {
         usersFileManger = new AccountFile();
         chatRoom = new ChatRoom();
         setting = new Setting();
+        this.clientNumber = clientNumber ;
+        clientStatusHandlr = new ClentFileHandler();
     }
 
     /**
-     *log in server can help us to manage our account and use Twitter after log in ...
+     * this main controller will help us to use FXML
+     * @param handler ,
+     * @param clientNumber ,
      */
-    public void serverLogIn(ClientHandler handler){
+    public void mainController(ClientHandler handler , int clientNumber){
 
-        Account user = service.logIn(handler);
-        String username = user.getName();
-        boolean repeated = false;
-        ArrayList<String> parameters = new ArrayList<>();
-        parameters.add("username: "+user.getUserName());
-        parameters.add("password: "+user.getPassword());
-        requestJSONHandler.writeToFile(requestJSONHandler.JSONMaker("log in","a submitted user can log in",parameters));
-        ArrayList<String> result = new ArrayList<>();
-        result.add(user.toString());
-        responseJSONHandler.writeToFile(responseJSONHandler.JSONMaker(false,new Errortype(errorcode,"log in successful"),1,result));
-        errorcode++;
-        if(username.equals("1")){
-            handler.outputStream("You are not logged in. If you want you can re-login or register from the main menu\n--> \"Twitter\"");
+        clientStatusHandlr.newClient(clientNumber);
+        while (true){
+            String Status = clientStatusHandlr.getStatus(clientNumber);
+            handler.outputStream(Status);
+            String newStatus = handler.inputStream();
+            clientStatusHandlr.updateClient(clientNumber,newStatus);
         }
+    }
 
-        else{
-            for(Account person : twitterUsers){
-                if(username.equals(person.getUserName())){
-                    mainMenu(user,handler);
-                    repeated = true;
-                    break;
-                }
-            }
-        }
-
-        if(!repeated && !username.equals("1")){
-            mainMenu(user,handler);
-        }
+    public void ChatRoomClick(ActionEvent actionEvent) {
 
     }
 
-    /**
-     * new Member will collaborate with signUp method for registration
-     */
-    public void newMember(ClientHandler handler){
-        Account user ;
-        user = service.SignUp(handler);
-        ArrayList<String> parameters = new ArrayList<>();
-        parameters.add("username: "+user.getUserName());
-        parameters.add("name: "+user.getName());
-        parameters.add("lastname: "+ user.getLastName());
-        parameters.add("password: "+user.getPassword());
-        parameters.add("birthday: "+user.getBirthDayDate());
-        parameters.add("signup: "+user.getSignUpDate());
-        parameters.add("bio: "+user.getBio());
-        requestJSONHandler.writeToFile(requestJSONHandler.JSONMaker("sign up","a submitted user can log in",parameters));
-        ArrayList<String> result = new ArrayList<>();
-        result.add(user.toString());
-        responseJSONHandler.writeToFile(responseJSONHandler.JSONMaker(false,new Errortype(errorcode,"sign up successful"),1,result));
-        errorcode++;
-        mainMenu(user,handler);
-    }
 
     /**
      * this method is the main part of program Where the user can choose what he/she wants to do
@@ -272,13 +263,15 @@ public class Twitter implements TwitterService {
             handler.outputStream("1)New chat\n2)Join Chat\nEny Other Keyboard : Exit");
             String choice = handler.inputStream();
             if (choice.equals("1")) {
-                chatRoom.chatBuilder(handler);
+
             } else if (choice.equals("2")) {
-                chatRoom.JoinChat(user,handler);
+                //chatRoom.JoinChat(user,handler);
             }
             else{
                 break;
             }
         }
     }
+
+
 }

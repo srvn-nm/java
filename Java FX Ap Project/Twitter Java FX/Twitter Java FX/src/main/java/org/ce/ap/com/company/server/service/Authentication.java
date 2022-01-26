@@ -1,5 +1,6 @@
 package org.ce.ap.com.company.server.service;
 
+import javafx.event.ActionEvent;
 import org.ce.ap.com.company.server.impl.AuthenticationService;
 import org.ce.ap.com.company.server.model.*;
 
@@ -10,6 +11,12 @@ import java.security.NoSuchAlgorithmException;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Iterator;
+
+import javafx.fxml.FXML;
+import javafx.scene.control.Button;
+import javafx.scene.control.CheckBox;
+import javafx.scene.control.TextField;
+import javafx.scene.text.Text;
 
 /**
  * AuthenticationService class for get users information like :
@@ -25,295 +32,277 @@ import java.util.Iterator;
 
 public class Authentication implements AuthenticationService {
 
-    public ArrayList<Account> twitterUsers; //this array will save all sign up users
-    private AccountFile usersFileManger ;
+    //Log In Section
+    @FXML
+    private Button CreateNewAccount;
+    @FXML
+    private Button ExitButton;
+    @FXML
+    private Button LogInButton;
+    @FXML
+    private TextField PasswordLogIn;
+    @FXML
+    private Text PasswordLogInWarning;
+    @FXML
+    private CheckBox RemembermeCheck;
+    @FXML
+    private TextField UserNameLogIn;
+    @FXML
+    private Text UserNameLogInWarning;
 
-    /***
-     * AuthenticationService constructor method
-     */
+    //Sign Up (First Part)
+    @FXML
+    private TextField Day;
+    @FXML
+    private Text DayWarning;
+    @FXML
+    private Button ExitButton2;
+    @FXML
+    private TextField LastName;
+    @FXML
+    private Text LastNameWarning;
+    @FXML
+    private TextField Month;
+    @FXML
+    private Text MonthWarning;
+    @FXML
+    private TextField Name;
+    @FXML
+    private Text NameWarning;
+    @FXML
+    private Button NextFirstMenu;
+    @FXML
+    private TextField Year;
+    @FXML
+    private Text YearWarning;
 
-    public Authentication() {
-        twitterUsers = new ArrayList<Account>();
-        usersFileManger = new AccountFile();
-    }
+    //Sign Up (Second Part)
+    @FXML
+    private Button FirstBack;
+    @FXML
+    private Button Next;
+    @FXML
+    private TextField PasswordAgain;
+    @FXML
+    private TextField PasswordSignUp;
+    @FXML
+    private Text PasswordSignUpWarning;
+    @FXML
+    private Text PasswordSignUpWarning2;
+    @FXML
+    private TextField UserNameSignUp;
+    @FXML
+    private Text UserNameSignUpWarning;
+
+    //Sign Up (third Part)
+    @FXML
+    private TextField Bio;
+    @FXML
+    private Button SignUp;
+    @FXML
+    private Button ProFileImage;
+    @FXML
+    private Button SecondBack;
+    @FXML
+    private Text imageWarning;
+    @FXML
+    private Text BioWarning;
 
 
+    public ArrayList<Account> twitterUsers = new ArrayList<Account>(); //this array will save all sign up users
+    private AccountFile usersFileManger = new AccountFile(); ;
+
+
+    //Log In Methods Section
     /**
      * log in  system will return our user username to open user panel in twitter
-     * @return NewUser or "You are not logged in. If you want you can re-login or register from the main menu\n\"Twitter\""
+     * @param event ,
      */
-    public Account logIn(ClientHandler handler){
-
+    public void LogInClick(ActionEvent event) {
         updateUsers();
+        boolean UserNameCheck = usernameCheck(UserNameLogIn.getText());
+        System.out.println(UserNameLogIn.getText());
+        boolean passwordCheck = passwordCheckForLogIn(PasswordLogIn.getText());
+        if(UserNameCheck && passwordCheck){
+            // file status --> users ...
+        }
+        if(!UserNameCheck){
+            UserNameLogInWarning.setText("Invalid User Name !");
+        }
+        if(!passwordCheck){
+            PasswordLogInWarning.setText("Invalid password !");
+        }
+    }
 
-        String userName ="";
-        String password;
 
-        Account NewUser = new Account("","","");
+    public void SignUpLogButton(ActionEvent event) {
 
-        boolean Exit = false;
-        boolean finaExit = false;
+    }
 
-        while (1==1){
-            handler.outputStream("Please enter your Username : ");
-            userName = handler.inputStream();
-            if(!usernameCheck(userName)){
-                break;
-            }
-            else {
-                handler.outputStream("Invalid Username !\n would you like to Sign Up ?\n1) Yes\n2) NO, Repeat again\nEny Other Keyboard : EXIT");
-                String choice = handler.inputStream();
-                if(choice.equals("1")){
-                    NewUser = SignUp(handler);
-                }
-                else if(choice.equals("2")){
-                    continue;
-                }
-                else {
-                    Exit = true;
-                    break;
-                }
-            }
+    public void Exit(ActionEvent event) {
+        // file status --> users ...
+    }
+
+    //Sign up first section
+
+    public void SecondSignUpLogButton(ActionEvent actionEvent) {
+        boolean unRepeatedUsrName = usernameCheck(UserNameSignUp.getText());
+        boolean PasswordSecurity = passwordQualityCheck(PasswordSignUp.getText());
+        boolean PasswordCheck = passwordCheck(PasswordAgain.getText(),PasswordSignUp.getText());
+        if(!unRepeatedUsrName && PasswordSecurity && PasswordCheck ){
+            //status
+        }
+        if(unRepeatedUsrName){
+            UserNameSignUpWarning.setText("Error : Input userName is repeated");
+        }
+        if(!unRepeatedUsrName){
+            UserNameSignUpWarning.setText("");
+        }
+        if(PasswordSecurity){
+            PasswordLogInWarning.setText("");
+        }
+        if(PasswordCheck){
+            PasswordSignUpWarning2.setText("");
+        }
+    }
+
+    public void BackToFirstMenu(ActionEvent actionEvent) {
+        //Status
+    }
+
+    //Sign up second section name lastname and birthday
+
+    public void BackToFirstSignUp(ActionEvent actionEvent) {
+        //second Back
+    }
+    public void FirstSignUpLogButton(ActionEvent actionEvent) {
+        boolean nameCheck = stringCheck(Name.getText());
+        boolean lastNameCheck = stringCheck(LastName.getText());
+
+        //birthday is numeric
+        boolean BirthDayStrDay = stringCheck(Day.getText());
+        boolean BirthDayStrMonth = stringCheck(Month.getText());
+        boolean BirthDayStrYear = stringCheck(Year.getText());
+
+        //birthday Check
+        boolean DayCheck = BirthDayDayCheck();
+        boolean MonthCheck = BirthDayMonthCheck();
+        boolean YearCheck = BirthDayYearCheck();
+
+        if(nameCheck && lastNameCheck && !BirthDayStrDay && !BirthDayStrMonth && !BirthDayStrYear && DayCheck && MonthCheck && YearCheck ){
+            // file status --> users ...
+        }
+        if(!nameCheck){
+            NameWarning.setText("Input name is incorrect due to incorrect characters or numbers");
+        }
+        if(!lastNameCheck){
+            LastNameWarning.setText("Input Last Name is incorrect due to incorrect characters or numbers");
+        }
+        if(BirthDayStrDay){
+            DayWarning.setText("date is Numeric");
         }
 
-        if(!Exit){
-            while (1==1){
-                handler.outputStream("Please enter your password:");
-                password = handler.inputStream();
-                if(passwordCheckForLogIn(password)){
-                    NewUser.setUserName(userName);
-                    break;
-                }
-                else {
-                    handler.outputStream("Invalid Password !\n would you like to exit ?\n1) Yes\nEny Other Keyboard : try again");
-                    String choice = handler.inputStream();
-                    if(choice.equals("1")){
-                        finaExit = true;
-                        break;
-                    }
-                }
-            }
+        if(BirthDayStrMonth){
+            MonthWarning.setText("date is Numeric");
         }
 
-        if(finaExit || Exit){
-            NewUser.setName("1");
-            return NewUser;
-        }
-
-        else{
-            return NewUser;
+        if(BirthDayStrYear){
+            YearWarning.setText("date is Numeric");
         }
 
     }
-    /**
-     * this class will provide the  signUp section
-     * in this method we will check :
-     * repeated userName
-     * Password
-     * Bio length
-     * BirthDayDate
-     *
-     * #collebrating --> strCheck , PasswordCheck , usernameCheck
-     */
-    public Account SignUp(ClientHandler handler) {
 
-        updateUsers();
+    private boolean BirthDayYearCheck() {
 
-        String name; // the name of user
-        String lastName; // the name of user
-        String userName; // the userName of user Account
-        String password; // the Password  of user Account
-        String birthDayDate; // the Birth day date of user
-        LocalDate signUpDate = LocalDate.now(); // the signUp date of user
-        String Bio; // the Biography of user
-
-        while (1 == 1) {
-            handler.outputStream("Welcome to Twitter :\nPlease enter your Personal Information :\nName: ");
-            name = handler.inputStream();
-            if (stringCheck(name)) {
-                break;
-            } else {
-                handler.outputStream("Error !\n Input name is incorrect due to incorrect characters or numbers\n");
-            }
-        }
-
-        while (1 == 1) {
-            handler.outputStream("Lastname: ");
-            lastName = handler.inputStream();
-            if (stringCheck(lastName)) {
-                break;
-            } else {
-                handler.outputStream("Error !\n Input Lastname is incorrect due to incorrect characters or numbers\n");
-            }
-        }
-
-        while (1 == 1) {
-            handler.outputStream("userName: ");
-            userName = handler.inputStream();
-            if (usernameCheck(userName)) {
-                break;
-            } else {
-                handler.outputStream("Error !\n Input userName is repeated\n");
-            }
-        }
-
-        while (1 == 1) {
-            handler.outputStream("password: ");
-            password = handler.inputStream();
-            boolean check = passwordCheck(password,handler);
-            if (check && passwordQualityCheck(password,handler)) {
-                break;
-            } else {
-                if(!check){
-                    handler.outputStream("Error !\n passwords did not match together\n");
-                }
-            }
-        }
-
-        Account newUser = new Account(name,lastName,userName);
-        newUser.setPassword(password,handler);
-        newUser.setSignUpDate(signUpDate);
-
-        newUser.setBirthDayDate(birthdayCheck(handler));
-        while (1 == 1) {
-            handler.outputStream("Bio: ");
-            Bio = handler.inputStream();
-            if (bioCheck(Bio)) {
-                break;
-            } else {
-                handler.outputStream("Error !\n Bio len is more than 256 char limit\n");
-            }
-        }
-        newUser.setBio(Bio);
-
-        twitterUsers.add(newUser);
-        usersFileManger.newUser(newUser);
-
-        return newUser;
-    }
-
-    /**
-     * in this method we will check input date of user birthday
-     * @return date of user birthday
-     */
-
-    public String birthdayCheck(ClientHandler handler){
-        String date = "";
         int year = 0;
+        boolean toCheck = false;
+        try{
+            year = Integer.parseInt(Year.getText());
+        }catch (Exception e){
+            System.out.println();
+        }
+
+        if(year>0 && year<2008){
+            toCheck = true;
+        }
+        else if(year>=2009){
+            YearWarning.setText("You can not register due to being under the age of majority !");
+        }
+
+        return toCheck;
+    }
+
+    private boolean BirthDayMonthCheck() {
+
+        int month = 0;
+        boolean toCheck = false;
+        try{
+            month = Integer.parseInt(Month.getText());
+        }catch (Exception e){
+            System.out.println();
+        }
+
+        if(month>0 && month<13){
+            toCheck = true;
+        }
+
+        else {
+            MonthWarning.setText("We dont have more than 12 month in on year !");
+        }
+        return toCheck;
+    }
+
+    private boolean BirthDayDayCheck() {
+
         int month = 0;
         int day = 0;
+        boolean toCheck = false;
 
-
-        while (true){
-            try {
-                handler.outputStream("Please enter your year of birth:");
-
-                year = Integer.valueOf(handler.inputStream());
-
-                if(year>0 && year<2008){
-                    date +=String.valueOf(year) + " - ";
-                    break;
-                }
-                else if(year>=2009){
-                    handler.outputStream("Error --> You can not register due to being under the age of majority !");
-                }
-            }
-            catch (Exception error){
-                handler.outputStream("Error --> please enter number");
-            }
+        try{
+            day = Integer.parseInt(Day.getText());
+            month = Integer.parseInt(Month.getText());
+        }catch (Exception e){
+            System.out.println();
         }
 
-        while (true){
-            try {
-                handler.outputStream("Please enter your month of birth:");
-
-                month = Integer.valueOf(handler.inputStream());
-
-                if(month>0 && month<10){
-                    date+="0" + String.valueOf(month) + " - ";
-                    break;
-                }
-                if(month>9 && month<=12){
-                    date +=String.valueOf(month) + " - ";
-                    break;
-                }
-                else {
-                    handler.outputStream("Error --> We dont have more than 12 month in on year !");
-                }
+        if(month==1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12 ){
+            if(day<32){
+                toCheck=true;
             }
-            catch (Exception error){
-                handler.outputStream("Error --> please enter number");
+            else {
+                DayWarning.setText(month + " th month have only 31 days");
             }
-
         }
-
-        while (true){
-            try {
-                handler.outputStream("Please enter your birthDay:");
-
-                day = Integer.valueOf(handler.inputStream());
-
-                if(day<0){
-
-                    handler.outputStream("Error !");
-                }
-                else if(month==1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12 ){
-
-                    if(day<32){
-
-                        if(day<10){
-                            date+="0" + String.valueOf(day);
-                            break;
-                        }
-
-                        else if(day>9){
-                            date+=String.valueOf(day);
-                            break;
-                        }
-                    }
-
-                    else {
-                        String DateCheck = "Error-->" + month + " th month have only 31 days";
-                        handler.outputStream(DateCheck);
-                    }
-                }
-                else if(month==11 || month == 9|| month == 6 || month == 4 ){
-                    if(day<31){
-                        if(day<10){
-                            date+="0" + String.valueOf(day);
-                            break;
-                        }
-                        else if(day>9){
-                            date+=String.valueOf(day);
-                            break;
-                        }
-                    }
-                    else {
-                        String DateCheck = "Error -->"+month + " th month have only 30 days";
-                        handler.outputStream(DateCheck);
-                    }
-                }
-                else {
-                    if (day < 10) {
-                        date += "0" + String.valueOf(day);
-                        break;
-                    } else if (day > 9) {
-                        date += String.valueOf(day);
-                        break;
-                    } else if (day > 29) {
-                        String DateCheck ="Error-->"+ month + " th month have only 29 days";
-                        handler.outputStream(DateCheck);
-                    }
-                }
+        else if(month==11 || month == 9|| month == 6 || month == 4 ){
+            if(day<31){
+                toCheck=true;
             }
-            catch (Exception error){
-                handler.outputStream("Error --> please enter number");
+            else {
+                DayWarning.setText(month + " th month have only 30 days");
             }
-
         }
+        else {
+            if (day < 30) {
+                toCheck=true;
+            } else if (day > 29) {
+                DayWarning.setText(month + " th month have only 29 days");
+            }
+        }
+        return toCheck;
+    }
 
-        return date;
+    //sign up third section
+    public void BackToSecondSignUp(ActionEvent actionEvent) {
+    }
 
+    public void SignUp(ActionEvent actionEvent) {
+        boolean BioCheck = bioCheck(Bio.getText());
+        if(BioCheck){
+            //
+        }
+        if(!BioCheck){
+            BioWarning.setText("Bio len is more than 256 char limit");
+        }
     }
 
     /**
@@ -403,10 +392,10 @@ public class Authentication implements AuthenticationService {
      */
     public boolean usernameCheck(String userName) {
 
-        boolean toCheck = true;
+        boolean toCheck = false;
         for (Account account : twitterUsers) {
             if (userName.equals(account.getUserName())) {
-                toCheck = false;
+                toCheck = true;
             }
         }
         return toCheck;
@@ -414,29 +403,27 @@ public class Authentication implements AuthenticationService {
 
     /**
      * Here we check password again .
-     * @param password
+     * @param password ,
+     * @param SecondPassword ,
      * @return toCheck (false --> not similar)
      */
-    public boolean passwordCheck(String password,ClientHandler handler) {
-
+    public boolean passwordCheck(String password,String SecondPassword) {
         boolean toCheck = true;
-        handler.outputStream("please write your password again(equal check): ");
-        String secondPassword = handler.inputStream();
-        if (!password.equals(secondPassword) ){
+        if (!password.equals(SecondPassword) ){
+            PasswordSignUpWarning2.setText("passwords did not match together !");
             toCheck = false;
         }
-
         return toCheck;
     }
-
 
     /**
      * Here we check password quality for user secure
      * @param password
      */
-    public boolean passwordQualityCheck(String password,ClientHandler handler) {
+    public boolean passwordQualityCheck(String password) {
 
-        boolean toCheckQuality = true;
+        boolean toCheckQuality;
+
         int lowercaseRate=0;
         int NumericRate=0;
         int shapeRate=0;
@@ -471,13 +458,10 @@ public class Authentication implements AuthenticationService {
         int sumCheck = uppercaseRate + lowercaseRate + shapeRate + NumericRate;
         if (sumCheck < 60){
             toCheckQuality = false;
-            String CheckQuality = "Error --> your password secure quality is %"+sumCheck+" and its low!\nplease try it again:\n";
-            handler.outputStream(CheckQuality);
+            PasswordSignUpWarning.setText("your password secure quality is %"+sumCheck+"  and its acceptable");
         }
         else {
             toCheckQuality = true;
-            String CheckQuality = "--> \"Twitter\"\nyour password secure quality is %"+sumCheck+"  and its acceptable\n";
-            handler.outputStream(CheckQuality);
         }
 
         return toCheckQuality;
@@ -500,7 +484,6 @@ public class Authentication implements AuthenticationService {
      * this method will help us to delete on specific account
      * @param user --> deleted account
      */
-
     public void removeAccount(Account user){
 
         String usernameFollow = user.getUserName();
@@ -520,4 +503,5 @@ public class Authentication implements AuthenticationService {
         twitterUsers.clear();
         twitterUsers.addAll(usersFileManger.AllUsers());
     }
+
 }

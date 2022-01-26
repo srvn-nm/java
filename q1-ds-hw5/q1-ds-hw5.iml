@@ -30,5 +30,7 @@
     <orderEntry type="library" name="sux4j-5.2.3" level="project" />
     <orderEntry type="library" name="webgraph-3.6.10" level="project" />
     <orderEntry type="library" name="webgraph-big-3.6.6" level="project" />
+    <orderEntry type="library" name="java" level="project" />
+    <orderEntry type="library" name="jgrapht.core" level="project" />
   </component>
 </module>

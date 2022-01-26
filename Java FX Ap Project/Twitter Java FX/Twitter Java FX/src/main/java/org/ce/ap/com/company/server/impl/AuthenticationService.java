@@ -13,28 +13,7 @@ import java.util.ArrayList;
 public interface AuthenticationService {
     public ArrayList<Account> twitterUsers = new ArrayList<Account>(); //this array will save all sign up users
     AccountFile usersFileManger = new AccountFile();
-    /**
-     * log in  system will return our user username to open user panel in twitter
-     * @return NewUser or "You are not logged in. If you want you can re-login or register from the main menu\n\"Twitter\""
-     */
-    public Account logIn(ClientHandler handler);
-    /**
-     * this class will provide the  signUp section
-     * in this method we will check :
-     * repeated userName
-     * Password
-     * Bio length
-     * BirthDayDate
-     *
-     * #collebrating --> strCheck , PasswordCheck , usernameCheck
-     */
-    public Account SignUp(ClientHandler handler);
-    /**
-     * in this method we will check input date of user birthday
-     * @return date of user birthday
-     */
 
-    public String birthdayCheck(ClientHandler handler);
     /**
      * Here we check that our string does not contain  a number or incorrect character.
      * ascii base ...
@@ -92,12 +71,12 @@ public interface AuthenticationService {
      * @param password
      * @return toCheck (false --> not similar)
      */
-    public boolean passwordCheck(String password,ClientHandler handler);
+    public boolean passwordCheck(String password,String SecondPassword);
     /**
      * Here we check password quality for user secure
      * @param password
      */
-    public boolean passwordQualityCheck(String password,ClientHandler handler);
+    public boolean passwordQualityCheck(String password);
     /**
      * Bio check will check the length of user Bio
      * @param bio
