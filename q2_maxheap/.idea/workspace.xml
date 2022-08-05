@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c9216b73-cba5-45e9-b50b-fbcb173bda10" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/q2_maxheap.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring3_Release.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring3_Release.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring4_Release.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring4_Release.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/TwitterJavaFX.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/TwitterJavaFX.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/src/main/java/com/fxcode/twitterjavafx/ChatNewChat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/src/main/java/com/fxcode/twitterjavafx/ChatRoom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/src/main/java/com/fxcode/twitterjavafx/ChatRoomMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/src/main/java/com/fxcode/twitterjavafx/FirstMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/src/main/java/com/fxcode/twitterjavafx/HelloApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/src/main/java/com/fxcode/twitterjavafx/JoinChatRoom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/src/main/java/com/fxcode/twitterjavafx/LogIn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/src/main/java/com/fxcode/twitterjavafx/Massage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/src/main/java/com/fxcode/twitterjavafx/Search.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/src/main/java/com/fxcode/twitterjavafx/ShowProfile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/src/main/java/com/fxcode/twitterjavafx/SignUpFirst.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/src/main/java/com/fxcode/twitterjavafx/SignUpSecondPart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/src/main/java/com/fxcode/twitterjavafx/SignUpThird.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/src/main/java/org/ce/ap/com/company/client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/src/main/java/org/ce/ap/com/company/client/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/src/main/java/org/ce/ap/com/company/client/ConsoleViewService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/src/main/java/org/ce/ap/com/company/client/ConsoleViewService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/src/main/java/org/ce/ap/com/company/server/impl/ObserverService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/src/main/java/org/ce/ap/com/company/server/impl/ObserverService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/src/main/java/org/ce/ap/com/company/server/impl/TwitterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/src/main/java/org/ce/ap/com/company/server/impl/TwitterService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/src/main/java/org/ce/ap/com/company/server/model/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/src/main/java/org/ce/ap/com/company/server/model/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/src/main/java/org/ce/ap/com/company/server/model/TimeLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/src/main/java/org/ce/ap/com/company/server/model/TimeLine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/src/main/java/org/ce/ap/com/company/server/model/Tweet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/src/main/java/org/ce/ap/com/company/server/model/Tweet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/src/main/java/org/ce/ap/com/company/server/service/Authentication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/src/main/java/org/ce/ap/com/company/server/service/ChatRoom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/src/main/java/org/ce/ap/com/company/server/service/ChatRoomFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/src/main/java/org/ce/ap/com/company/server/service/ClentFileHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/src/main/java/org/ce/ap/com/company/server/service/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/src/main/java/org/ce/ap/com/company/server/service/ClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/src/main/java/org/ce/ap/com/company/server/service/Observer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/src/main/java/org/ce/ap/com/company/server/service/Setting.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/src/main/java/org/ce/ap/com/company/server/service/Setting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/src/main/java/org/ce/ap/com/company/server/service/Tweeting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/src/main/java/org/ce/ap/com/company/server/service/Twitter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/src/main/resources/Images/images (4).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/src/main/resources/com/fxcode/twitterjavafx/ChatRoom.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/src/main/resources/com/fxcode/twitterjavafx/ChatRoom.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/src/main/resources/com/fxcode/twitterjavafx/ChatRoomMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/src/main/resources/com/fxcode/twitterjavafx/ChatRoomMenu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/src/main/resources/com/fxcode/twitterjavafx/CreatNewChat.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/src/main/resources/com/fxcode/twitterjavafx/CreatNewChat.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/src/main/resources/com/fxcode/twitterjavafx/FirstMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/src/main/resources/com/fxcode/twitterjavafx/FirstMenu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/src/main/resources/com/fxcode/twitterjavafx/JoinChatRoom.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/src/main/resources/com/fxcode/twitterjavafx/JoinChatRoom.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/src/main/resources/com/fxcode/twitterjavafx/LogIn.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/src/main/resources/com/fxcode/twitterjavafx/LogIn.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/src/main/resources/com/fxcode/twitterjavafx/Massage.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/src/main/resources/com/fxcode/twitterjavafx/ShowProfile.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/src/main/resources/com/fxcode/twitterjavafx/ShowProfile.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/src/main/resources/com/fxcode/twitterjavafx/SignUpFirst.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/src/main/resources/com/fxcode/twitterjavafx/SignUpFirst.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/src/main/resources/com/fxcode/twitterjavafx/SignUpSecond.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/src/main/resources/com/fxcode/twitterjavafx/SignUpSecond.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/src/main/resources/com/fxcode/twitterjavafx/SignUpThird.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/src/main/resources/com/fxcode/twitterjavafx/SignUpThird.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/src/main/resources/com/fxcode/twitterjavafx/Sreach.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/src/main/resources/com/fxcode/twitterjavafx/Sreach.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/src/main/resources/com/fxcode/twitterjavafx/paint one.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/src/main/resources/currentClient/CurrentClient.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/SignUp/SignUpFirst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/SignUp/SignUpSecond.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/SignUp/SignUpThird.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/com/fxcode/twitterjavafx/ChatNewChat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/com/fxcode/twitterjavafx/ChatRoom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/com/fxcode/twitterjavafx/ChatRoom.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/com/fxcode/twitterjavafx/ChatRoom.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/com/fxcode/twitterjavafx/ChatRoomMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/com/fxcode/twitterjavafx/ChatRoomMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/com/fxcode/twitterjavafx/ChatRoomMenu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/com/fxcode/twitterjavafx/CreatNewChat.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/com/fxcode/twitterjavafx/CreatNewChat.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/com/fxcode/twitterjavafx/FirstMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/com/fxcode/twitterjavafx/FirstMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/com/fxcode/twitterjavafx/FirstMenu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/com/fxcode/twitterjavafx/HelloApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/com/fxcode/twitterjavafx/JoinChatRoom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/com/fxcode/twitterjavafx/JoinChatRoom.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/com/fxcode/twitterjavafx/JoinChatRoom.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/com/fxcode/twitterjavafx/LogIn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/com/fxcode/twitterjavafx/LogIn.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/com/fxcode/twitterjavafx/LogIn.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/com/fxcode/twitterjavafx/Massage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/com/fxcode/twitterjavafx/Massage.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/com/fxcode/twitterjavafx/Search.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/com/fxcode/twitterjavafx/ShowProfile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/com/fxcode/twitterjavafx/ShowProfile.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/com/fxcode/twitterjavafx/ShowProfile.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/com/fxcode/twitterjavafx/SignUpFirst.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/com/fxcode/twitterjavafx/SignUpFirst.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/com/fxcode/twitterjavafx/SignUpFirst.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/com/fxcode/twitterjavafx/SignUpSecond.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/com/fxcode/twitterjavafx/SignUpSecond.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/com/fxcode/twitterjavafx/SignUpSecondPart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/com/fxcode/twitterjavafx/SignUpThird.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/com/fxcode/twitterjavafx/SignUpThird.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/com/fxcode/twitterjavafx/SignUpThird.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/com/fxcode/twitterjavafx/Sreach.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/com/fxcode/twitterjavafx/Sreach.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/currentClient/CurrentClient.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/org/ce/ap/com/company/Client/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/org/ce/ap/com/company/Client/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/org/ce/ap/com/company/Client/ConsoleViewService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/org/ce/ap/com/company/Client/ConsoleViewService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/org/ce/ap/com/company/server/impl/AuthenticationService (1).class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/org/ce/ap/com/company/server/impl/ObserverService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/org/ce/ap/com/company/server/impl/ObserverService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/org/ce/ap/com/company/server/impl/TwitterService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/org/ce/ap/com/company/server/impl/TwitterService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/org/ce/ap/com/company/server/model/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/org/ce/ap/com/company/server/model/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/org/ce/ap/com/company/server/model/TimeLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/org/ce/ap/com/company/server/model/TimeLine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/org/ce/ap/com/company/server/model/Tweet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/org/ce/ap/com/company/server/model/Tweet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/org/ce/ap/com/company/server/service/Authentication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/org/ce/ap/com/company/server/service/ChatRoom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/org/ce/ap/com/company/server/service/ChatRoomFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/org/ce/ap/com/company/server/service/ClentFileHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/org/ce/ap/com/company/server/service/ClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/org/ce/ap/com/company/server/service/ClientHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/org/ce/ap/com/company/server/service/Observer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/org/ce/ap/com/company/server/service/Setting.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/org/ce/ap/com/company/server/service/Setting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/org/ce/ap/com/company/server/service/Tweeting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java FX Ap Project/Twitter Java FX/Twitter Java FX/target/classes/org/ce/ap/com/company/server/service/Twitter.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/com/company/MaxHeap.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="27I2xpPs0OCs7QncXm0OPYGkCR9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="company" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="q2_maxheap" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c9216b73-cba5-45e9-b50b-fbcb173bda10" name="Changes" comment="" />
+      <created>1648993532271</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648993532271</updated>
+      <workItem from="1648993533811" duration="826000" />
+      <workItem from="1650258908495" duration="18000" />
+      <workItem from="1650274513918" duration="113000" />
+      <workItem from="1656355079347" duration="232000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

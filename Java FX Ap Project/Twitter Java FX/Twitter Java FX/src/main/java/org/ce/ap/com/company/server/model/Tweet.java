@@ -1,5 +1,7 @@
 package org.ce.ap.com.company.server.model;
 
+import javafx.fxml.FXML;
+import javafx.scene.control.Label;
 import org.ce.ap.com.company.server.service.ClientHandler;
 
 import java.io.Serializable;
@@ -180,4 +182,5 @@ public class Tweet implements Serializable {
     public ArrayList<Tweet> getReplies() {
         return replies;
     }
+
 }

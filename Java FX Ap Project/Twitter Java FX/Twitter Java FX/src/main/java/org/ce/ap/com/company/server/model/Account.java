@@ -34,6 +34,7 @@ public class Account implements Serializable {
     public ArrayList<Tweet> retweets;
     public ArrayList<Tweet> replies;
     public ArrayList<Tweet> likes;
+    private String pictureUrl;
     @Serial
     private static final long serialVersionUID = -5831173123415119657L;
 
@@ -43,7 +44,7 @@ public class Account implements Serializable {
      * @param lastName --> user last name
      * @param userName --> user username
      */
-    public Account(String name, String lastName, String userName) {
+    public Account(String name, String lastName, String userName, String pictureUrl) {
         this.name = name;
         this.lastName = lastName;
         this.userName = userName;
@@ -52,6 +53,23 @@ public class Account implements Serializable {
         retweets = new ArrayList<>();
         replies = new ArrayList<>();
         likes = new ArrayList<>();
+        this.pictureUrl = pictureUrl;
+    }
+
+    /**
+     * this method will return the user picture url.
+     * @return pictureUrl
+     */
+    public String getPictureUrl(){
+        return pictureUrl;
+    }
+
+    /**
+     * this method will set the user picture url.
+     * @param pictureUrl
+     */
+    public void setPictureUrl(String pictureUrl) {
+        this.pictureUrl = pictureUrl;
     }
 
     /**
@@ -147,13 +165,13 @@ public class Account implements Serializable {
      *
      * @param password ,
      */
-    public void setPassword(String password, ClientHandler clientHandler) {
+    public void setPassword(String password) {
         try {
             Password = toHexString(getSHA(password));
         }
         // For specifying wrong message digest algorithms
         catch (NoSuchAlgorithmException e) {
-            clientHandler.outputStream("Exception thrown for incorrect algorithm: " + e);
+            System.out.println();
         }
     }
 
@@ -217,19 +235,14 @@ public class Account implements Serializable {
      *
      * @param user --> Unfollowed person
      */
-    public void Unfollow(Account user,ClientHandler clientHandler) {
+    public void Unfollow(Account user) {
         String usernameFollow = user.getUserName();
         Iterator<Account> it = following.iterator();
 
         while (it.hasNext()) {
             Account account = it.next();
             if (usernameFollow.equals(account.getUserName())) {
-                String Massage = "------------------------------------------------------------------\n"+account.toString()+"------------------------------------------------------------------\n";
-                clientHandler.outputStream(Massage+"Are you sure?\n1) yes\netc.No");
-                String sure = clientHandler.inputStream();
-                if (sure.equals("1")) {
-                    it.remove();
-                }
+                it.remove();
                 break;
             }
 

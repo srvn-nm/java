@@ -1,5 +1,7 @@
 package org.ce.ap.com.company.server.impl;
 
+import com.example.twitterjavafx.Authentication;
+import com.example.twitterjavafx.ChatRoom;
 import org.ce.ap.com.company.server.model.Account;
 import org.ce.ap.com.company.server.model.TimeLine;
 import org.ce.ap.com.company.server.service.*;
@@ -8,10 +10,10 @@ import java.util.ArrayList;
 
 public interface TwitterService {
 
-    Tweeting tweeting = new Tweeting();
+    //Tweeting tweeting = new Tweeting();
     TimeLine showingTable = new TimeLine();
     final Authentication service = new Authentication();//log in and sign up service
-    Observer browser = new Observer();//searching service
+   // Observer browser = new Observer();//searching service
     ArrayList<Account> twitterUsers = new ArrayList<>(); //this array will save all sign up users
     final AccountFile usersFileManger = new AccountFile();
     final ChatRoom chatRoom = new ChatRoom();
@@ -42,8 +44,5 @@ public interface TwitterService {
      * this method will update users list
      */
     public void updateUsers();
-    /**
-     * in this method we will show chats menu
-     */
-    public void Chatroom(Account user, ClientHandler handler);
+
 }

@@ -11,9 +11,9 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="604.0" style="-fx-background-color: White;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.fxcode.twitterjavafx.ChatRoom">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="423.0" prefWidth="604.0" style="-fx-background-color: White;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.twitterjavafx.ChatRoom">
     <children>
-        <Button fx:id="SendMassage" layoutX="478.0" layoutY="359.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="124.0" style="-fx-background-color: #1c93c4;" text="Send" textFill="WHITE" />
+        <Button fx:id="SendMassage" layoutX="476.0" layoutY="365.0" mnemonicParsing="false" onAction="#SendMassageButton" prefHeight="58.0" prefWidth="135.0" style="-fx-background-color: #1c93c4;" text="Send" textFill="WHITE" />
         <ImageView fitHeight="65.0" fitWidth="67.0" layoutX="-1.0" pickOnBounds="true" preserveRatio="true">
             <image>
                 <Image url="@../../../Images/logo.png" />
@@ -28,17 +28,26 @@
                 <Font name="System Bold" size="22.0" />
             </font>
         </Text>
-        <TextField layoutX="1.0" layoutY="359.0" prefHeight="39.0" prefWidth="475.0" promptText="Write Your Massage Here" />
-        <VBox layoutX="1.0" layoutY="56.0" prefHeight="81.0" prefWidth="78.0">
+        <TextField fx:id="NewMassage" layoutX="1.0" layoutY="385.0" prefHeight="39.0" prefWidth="475.0" promptText="Write Your Massage Here" />
+        <VBox layoutX="1.0" layoutY="56.0" prefHeight="302.0" prefWidth="74.0">
             <children>
-                <Button fx:id="Refresh" mnemonicParsing="false" prefHeight="39.0" prefWidth="122.0" style="-fx-background-color: #1c93c4;" text="Refresh" textFill="WHITE" />
-                <Button fx:id="Exit" mnemonicParsing="false" prefHeight="40.0" prefWidth="78.0" style="-fx-background-color: #1c93c4;" text="Exit" textFill="WHITE" />
+                <Button fx:id="Refresh" mnemonicParsing="false" onAction="#RefreshButton" prefHeight="39.0" prefWidth="122.0" style="-fx-background-color: #1c93c4;" text="Refresh" textFill="WHITE" />
+                <Button fx:id="ExitChat" mnemonicParsing="false" onAction="#ExitChatButton" prefHeight="40.0" prefWidth="78.0" style="-fx-background-color: #1c93c4;" text="Exit" textFill="WHITE" />
+                <Button fx:id="sideMenuChatRoom" mnemonicParsing="false" onAction="#sideMenuButtonChatRoom" prefHeight="40.0" prefWidth="78.0" style="-fx-background-color: #1c93c4;" text="sideMenu" textFill="WHITE" />
             </children>
         </VBox>
         <BorderPane fx:id="massges" layoutX="79.0" layoutY="56.0" prefHeight="302.0" prefWidth="522.0">
             <right>
                 <ScrollBar fx:id="scroll" orientation="VERTICAL" prefHeight="302.0" prefWidth="0.0" BorderPane.alignment="CENTER" />
             </right>
+            <center>
+                <Text fx:id="MsgText" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="506.1366767883301" BorderPane.alignment="CENTER">
+                    <font>
+                        <Font size="16.0" />
+                    </font>
+                </Text>
+            </center>
         </BorderPane>
+        <Text fx:id="NewMassageWarning" fill="RED" layoutX="1.0" layoutY="378.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="475.19999999999993" />
     </children>
 </AnchorPane>

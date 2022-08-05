@@ -9,15 +9,13 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
-<AnchorPane prefHeight="486.0" prefWidth="696.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.fxcode.twitterjavafx.SignUpThird">
+<AnchorPane prefHeight="486.0" prefWidth="696.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.twitterjavafx.Authentication">
     <children>
         <TextField fx:id="Bio" alignment="TOP_LEFT" blendMode="SRC_ATOP" layoutX="91.0" layoutY="210.0" prefHeight="106.0" prefWidth="608.0" promptText="Bio">
             <font>
                 <Font size="18.0" />
             </font>
         </TextField>
-        <Button fx:id="ProFileImage" layoutX="499.0" layoutY="334.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="198.0" style="-fx-background-color: d4d6d8;" text="ProFileImage" />
         <Pane layoutX="10.0" layoutY="10.0" prefHeight="170.0" prefWidth="729.0">
             <children>
                 <ImageView fitHeight="106.0" fitWidth="127.0" layoutX="296.0" pickOnBounds="true" preserveRatio="true">
@@ -32,11 +30,15 @@
                 </Text>
             </children>
         </Pane>
-        <Button fx:id="SecondBack" layoutX="672.0" layoutY="450.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="53.0" style="-fx-background-color: b7b7b7;" text="Back">
+        <Button fx:id="SecondBack" layoutX="672.0" layoutY="450.0" mnemonicParsing="false" onAction="#BackToSecondSignUp" prefHeight="26.0" prefWidth="53.0" style="-fx-background-color: b7b7b7;" text="Back">
             <font>
                 <Font name="System Bold" size="12.0" />
             </font>
         </Button>
-        <Button fx:id="Next" layoutX="119.0" layoutY="394.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="552.0" style="-fx-background-color: bac0c3;" text="Sign Up" />
+        <Button fx:id="SignUp" layoutX="119.0" layoutY="394.0" mnemonicParsing="false" onAction="#SignUp" prefHeight="30.0" prefWidth="552.0" style="-fx-background-color: bac0c3;" text="Sign Up" />
+        <Text fx:id="BioWarning" fill="RED" layoutX="91.0" layoutY="206.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="608.0000000000001" />
+        <Text fx:id="imageWarning" fill="RED" layoutX="288.0" layoutY="354.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="198.39999999999986" />
+        <Button fx:id="sideMenuSign3" layoutX="14.0" layoutY="450.0" mnemonicParsing="false" onAction="#sideMenuButtonSign3" prefHeight="26.0" prefWidth="118.0" style="-fx-background-color: bac0c3;" text="sideMenu" textFill="WHITE" />
+      <TextField fx:id="ProfileImage" layoutX="479.0" layoutY="344.0" prefHeight="25.0" prefWidth="228.0" promptText="Profile Image URL" />
     </children>
 </AnchorPane>

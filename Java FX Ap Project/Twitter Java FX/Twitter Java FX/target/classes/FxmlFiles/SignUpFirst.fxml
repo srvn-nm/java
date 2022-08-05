@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="582.0" prefWidth="730.0" style="-fx-background-color: wh;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.twitterjavafx.Authentication">
+   <children>
+      <Pane prefHeight="134.0" prefWidth="730.0">
+         <children>
+            <ImageView fitHeight="97.0" fitWidth="106.0" layoutX="318.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/logo.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="14.0" layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create your account" wrappingWidth="352.53680419921875">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <TextField fx:id="LastName" layoutX="71.0" layoutY="247.0" prefHeight="43.0" prefWidth="605.0" promptText="Last Name">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <Button fx:id="NextFirstMenu" layoutX="97.0" layoutY="458.0" mnemonicParsing="false" onAction="#FirstSignUpLogButton" prefHeight="30.0" prefWidth="535.0" style="-fx-background-color: bac0c3;" text="Next" />
+      <TextField fx:id="Name" layoutX="71.0" layoutY="175.0" prefHeight="43.0" prefWidth="606.0" promptText="Name">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <Button fx:id="ExitButton2" layoutX="652.0" layoutY="533.0" mnemonicParsing="false" onAction="#BackToFirstSignUp" prefHeight="26.0" prefWidth="53.0" style="-fx-background-color: b7b7b7;" text="Exit">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Text fx:id="NameWarning" fill="RED" layoutX="70.0" layoutY="171.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="606.3999999999999" />
+      <Text fx:id="LastNameWarning" fill="RED" layoutX="70.0" layoutY="243.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="606.3999999999999" />
+      <TextField fx:id="Month" layoutX="70.0" layoutY="331.0" prefHeight="43.0" prefWidth="166.0" promptText="Month">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="Day" layoutX="282.0" layoutY="331.0" prefHeight="43.0" prefWidth="166.0" promptText="Day">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="Year" layoutX="510.0" layoutY="331.0" prefHeight="43.0" prefWidth="166.0" promptText="Year">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <Text fx:id="MonthWarning" fill="RED" layoutX="70.0" layoutY="387.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="166.39999999999986" />
+      <Text fx:id="DayWarning" fill="RED" layoutX="282.0" layoutY="387.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="166.39999999999986" />
+      <Text fx:id="YearWarning" fill="RED" layoutX="510.0" layoutY="386.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="166.39999999999986" />
+      <Button fx:id="sideMenuSignup" layoutX="14.0" layoutY="540.0" mnemonicParsing="false" onAction="#sideMenuButtonSign2" prefHeight="26.0" prefWidth="148.0" style="-fx-background-color: bac0c3;" text="sideMenu" textFill="WHITE" />
+   </children>
+</AnchorPane>

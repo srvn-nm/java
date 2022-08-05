@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #657786;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.twitterjavafx.Twitter">
+   <children>
+      <Button fx:id="logOut" layoutX="106.0" layoutY="146.0" mnemonicParsing="false" onAction="#Exit" prefHeight="107.0" prefWidth="116.0" style="-fx-background-color: #1DA1F2;" text="Log Out" />
+      <Button fx:id="ExitApp" layoutX="339.0" layoutY="146.0" mnemonicParsing="false" onAction="#wholeExit" prefHeight="107.0" prefWidth="116.0" style="-fx-background-color: #1DA1F2;" text="Exit" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="177.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/images.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

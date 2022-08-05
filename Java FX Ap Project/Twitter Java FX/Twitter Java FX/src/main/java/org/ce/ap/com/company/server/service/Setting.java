@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 /**
- * this class will show and handle setting --> delete account or edit tweet or account
+ * thisclass will show and handle setting --> delete account or edit tweet or account
  */
 public class Setting {
 
@@ -63,7 +63,7 @@ public class Setting {
                             change = handler.inputStream();
                             boolean check = passwordCheck(change,handler);
                             if (check && passwordQualityCheck(change ,handler)) {
-                                user.setPassword(change,handler);
+                                //user.setPassword(change,handler);
                                 usersFileManger.userUpdate(user);
                                 break;
                             } else if(!check){

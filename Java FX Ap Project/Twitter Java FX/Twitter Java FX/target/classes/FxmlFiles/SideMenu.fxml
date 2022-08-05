@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="Anchor" prefHeight="400.0" prefWidth="600.0" styleClass="sideMenu" stylesheets="@applicationShowProfile.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.twitterjavafx.Twitter">
+   <children>
+      <Button fx:id="Application" layoutX="67.0" layoutY="59.0" mnemonicParsing="false" onAction="#ApplicationSelect" prefHeight="66.0" prefWidth="113.0" style="-fx-background-color: black;" text="Application" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="View" layoutX="67.0" layoutY="266.0" mnemonicParsing="false" onAction="#ViewSelect" prefHeight="66.0" prefWidth="113.0" style="-fx-background-color: black;" text="View" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="Options" layoutX="402.0" layoutY="266.0" mnemonicParsing="false" onAction="#OptionSelect" prefHeight="66.0" prefWidth="113.0" style="-fx-background-color: black;" text="Options" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="Help" layoutX="386.0" layoutY="59.0" mnemonicParsing="false" onAction="#HeloSelect" prefHeight="66.0" prefWidth="113.0" style="-fx-background-color: black;" text="Help" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="186.0" layoutY="132.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/images (5).jpeg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

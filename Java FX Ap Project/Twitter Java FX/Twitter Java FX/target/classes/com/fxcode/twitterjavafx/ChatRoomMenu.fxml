@@ -9,7 +9,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<VBox fx:id="LogInWindow" alignment="CENTER" prefHeight="483.0" prefWidth="639.0" spacing="20.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.fxcode.twitterjavafx.ChatRoomMenu">
+<VBox fx:id="LogInWindow" alignment="CENTER" prefHeight="483.0" prefWidth="639.0" spacing="20.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.twitterjavafx.Twitter">
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
     </padding>
@@ -25,16 +25,16 @@
     </Text>
 
     <Label fx:id="welcomeText" />
-    <Button fx:id="NewChat" alignment="CENTER" onAction="#onHelloButtonClick" prefHeight="46.0" prefWidth="322.0" style="-fx-background-color: #1c93c4;" text="New Chat" textAlignment="CENTER" textFill="WHITE">
+    <Button fx:id="NewChat" alignment="CENTER" onAction="#ChatRoomClick" prefHeight="46.0" prefWidth="322.0" style="-fx-background-color: #1c93c4;" text="New Chat" textAlignment="CENTER" textFill="WHITE">
         <font>
             <Font name="System Bold" size="20.0" />
         </font></Button>
-    <Button fx:id="JoinChat" alignment="CENTER" onAction="#onHelloButtonClick" prefHeight="47.0" prefWidth="319.0" style="-fx-background-color: #1c93c4;" text="Join Chat" textAlignment="CENTER" textFill="WHITE">
+    <Button fx:id="JoinChat" alignment="CENTER" onAction="#ChatRoomClick" prefHeight="47.0" prefWidth="319.0" style="-fx-background-color: #1c93c4;" text="Join Chat" textAlignment="CENTER" textFill="WHITE">
         <font>
             <Font name="System Bold" size="20.0" />
         </font>
     </Button>
-    <Button fx:id="Exit" alignment="CENTER" onAction="#onHelloButtonClick" prefHeight="47.0" prefWidth="321.0" style="-fx-background-color: #1c93c4;" text="Exit" textAlignment="CENTER" textFill="WHITE">
+    <Button fx:id="ChatRoomMenuExit" alignment="CENTER" onAction="#ChatRoomClick" prefHeight="47.0" prefWidth="321.0" style="-fx-background-color: #1c93c4;" text="Exit" textAlignment="CENTER" textFill="WHITE">
         <font>
             <Font name="System Bold" size="20.0" />
         </font>
@@ -42,4 +42,5 @@
             <Insets bottom="10.0" />
         </VBox.margin>
     </Button>
+    <Button fx:id="sideMenu" mnemonicParsing="false" onAction="#sideMenuButton" prefHeight="40.0" prefWidth="240.0" style="-fx-background-color: #1c93c4;" text="sideMenu" textFill="WHITE" />
 </VBox>

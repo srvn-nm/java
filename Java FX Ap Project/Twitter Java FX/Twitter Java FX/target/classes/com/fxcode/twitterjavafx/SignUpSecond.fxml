@@ -9,7 +9,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="550.0" prefWidth="729.0" style="-fx-background-color: White;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.fxcode.twitterjavafx.SignUpFirst">
+<AnchorPane prefHeight="550.0" prefWidth="729.0" style="-fx-background-color: White;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.twitterjavafx.Authentication">
     <children>
         <Pane prefHeight="170.0" prefWidth="729.0">
             <children>
@@ -25,13 +25,13 @@
                 </Text>
             </children>
         </Pane>
-        <Button fx:id="Next" layoutX="117.0" layoutY="400.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="496.0" style="-fx-background-color: bac0c3;" text="Next" />
-        <TextField fx:id="UserName" layoutX="97.0" layoutY="188.0" prefHeight="43.0" prefWidth="535.0" promptText="User Name">
+        <Button fx:id="Next" layoutX="117.0" layoutY="386.0" mnemonicParsing="false" onAction="#SecondSignUpLogButton" prefHeight="30.0" prefWidth="496.0" style="-fx-background-color: bac0c3;" text="Next" />
+        <TextField fx:id="UserNameSignUp" layoutX="97.0" layoutY="188.0" prefHeight="43.0" prefWidth="535.0" promptText="User Name">
             <font>
                 <Font size="20.0" />
             </font>
         </TextField>
-        <TextField fx:id="Password" layoutX="97.0" layoutY="253.0" prefHeight="43.0" prefWidth="535.0" promptText="Password">
+        <TextField fx:id="PasswordSignUp" layoutX="97.0" layoutY="253.0" prefHeight="43.0" prefWidth="535.0" promptText="Password">
             <font>
                 <Font size="20.0" />
             </font>
@@ -41,10 +41,23 @@
                 <Font size="20.0" />
             </font>
         </TextField>
-        <Button fx:id="FirstBack" layoutX="651.0" layoutY="509.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="53.0" style="-fx-background-color: b7b7b7;" text="Back">
+        <Button fx:id="SecondBack" layoutX="598.0" layoutY="469.0" mnemonicParsing="false" onAction="#BackToFirstMenu" prefHeight="26.0" prefWidth="118.0" style="-fx-background-color: b7b7b7;" text="Back to Menu">
             <font>
                 <Font name="System Bold" size="12.0" />
             </font>
         </Button>
+        <Text fx:id="UserNameSignUpWarning" fill="RED" layoutX="97.0" layoutY="183.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="535.2" />
+        <Text fx:id="PasswordSignUpWarning" fill="RED" layoutX="97.0" layoutY="249.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="535.2" />
+        <Text fx:id="PasswordSignUpWarning2" fill="RED" layoutX="96.0" layoutY="309.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="535.2" />
+        <Text layoutX="14.0" layoutY="469.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your password must hava at least three of the following options:">
+            <font>
+                <Font name="System Bold Italic" size="15.0" />
+            </font>
+        </Text>
+        <Text layoutX="33.0" layoutY="487.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A character(#,!,@ ... )" />
+        <Text layoutX="33.0" layoutY="504.0" strokeType="OUTSIDE" strokeWidth="0.0" text="An upper case character" />
+        <Text layoutX="33.0" layoutY="521.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A lower case character" />
+        <Text layoutX="33.0" layoutY="539.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A number" />
+        <Button fx:id="sideMenuSign2" layoutX="598.0" layoutY="503.0" mnemonicParsing="false" onAction="#sideMenuButtonSign1" prefHeight="26.0" prefWidth="118.0" style="-fx-background-color: bac0c3;" text="sideMenu" textFill="WHITE" />
     </children>
 </AnchorPane>

@@ -1,5 +1,6 @@
 package org.ce.ap.com.company.Client;
 
+import org.ce.ap.com.company.server.service.ClientFileHandler;
 import java.io.*;
 import java.net.Socket;
 
@@ -11,7 +12,9 @@ import java.net.Socket;
 
 public class Client{
 
-    public static ConsoleViewService viewService = new ConsoleViewService();
+    private static ConsoleViewService viewService = new ConsoleViewService();
+    private static ClientFileHandler clientFileHandler = new ClientFileHandler();
+
     public static void main(String[] args) {
         try(Socket clientSocket = new Socket("127.0.0.1",8080)) {
             //writing setting properties
@@ -28,8 +31,19 @@ public class Client{
             InputStream inputMenu = clientSocket.getInputStream();
             //out put choice --> menu server
             OutputStream outputs = clientSocket.getOutputStream();
+            int ClientNumber = clientFileHandler.getCurrentClient();
+            viewService.consoleInputPrint(inputMenu,outputs,ClientNumber);
+//            while (true){
+//                viewService.consoleInputPrint(inputMenu,outputs,ClientNumber);
+//                String NewFxmlStatus  = clientFileHandler.getStatus(ClientNumber);
+//                if(NewFxmlStatus.equals("LogOut")){
+//                    break;
+//                }
+//                else{
+//
+//                }
+//            }
 
-            viewService.consoleInputPrint(inputMenu,outputs);
 
         }catch (Exception runTimeError){
             runTimeError.printStackTrace();

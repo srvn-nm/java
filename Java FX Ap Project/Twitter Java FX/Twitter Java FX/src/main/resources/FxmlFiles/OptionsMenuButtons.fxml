@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.ce.ap.com.company.server.service.OptionsMenuButtons">
+    <children>
+        <Button fx:id="ChatRoom" layoutX="59.0" layoutY="33.0" mnemonicParsing="false" onAction="#ChatRoomAplicitaion" prefHeight="34.0" prefWidth="196.0" style="-fx-background-color: #a4a4a4;" text="ChatRoom" />
+        <Button fx:id="TimeLine" layoutX="59.0" layoutY="87.0" mnemonicParsing="false" onAction="#TimeLIneAplication" prefHeight="34.0" prefWidth="196.0" style="-fx-background-color: #a4a4a4;" text="TimeLine" />
+        <Button fx:id="Search" layoutX="59.0" layoutY="141.0" mnemonicParsing="false" onAction="#SearchAplication" prefHeight="34.0" prefWidth="196.0" style="-fx-background-color: #a4a4a4;" text="Search" />
+        <Button fx:id="ShowProfile" layoutX="59.0" layoutY="191.0" mnemonicParsing="false" onAction="#ShowProfileAplication" prefHeight="34.0" prefWidth="196.0" style="-fx-background-color: #a4a4a4;" text="ShowProfile" />
+        <Button fx:id="CreateTweet" layoutX="59.0" layoutY="236.0" mnemonicParsing="false" onAction="#CreateTweetAplication" prefHeight="34.0" prefWidth="196.0" style="-fx-background-color: #a4a4a4;" text="Create Tweet" />
+        <Button fx:id="Help" layoutX="59.0" layoutY="285.0" mnemonicParsing="false" onAction="#HelpAcction" prefHeight="34.0" prefWidth="196.0" style="-fx-background-color: #a4a4a4;" text="Help" />
+        <Button fx:id="LogOut" layoutX="59.0" layoutY="335.0" mnemonicParsing="false" onAction="#LogOutApliccation" prefHeight="34.0" prefWidth="196.0" style="-fx-background-color: #a4a4a4;" text="Log out" />
+        <ImageView fitHeight="150.0" fitWidth="240.0" layoutX="377.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../Images/images.jpeg" />
+            </image>
+        </ImageView>
+        <TextField alignment="TOP_LEFT" layoutX="329.0" layoutY="241.0" prefHeight="118.0" prefWidth="246.0" promptText="Send FeedBack" />
+    </children>
+</AnchorPane>

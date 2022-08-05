@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: White;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.fxcode.twitterjavafx.Search">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: White;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.twitterjavafx.Observer">
     <children>
         <TextField fx:id="SearchUserName" layoutX="46.0" layoutY="112.0" prefHeight="26.0" prefWidth="374.0" promptText="User Name" />
         <Button fx:id="SearchButton" layoutX="469.0" layoutY="112.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="98.0" style="-fx-background-color: #1c93c4;" text="Search" textFill="WHITE" />
@@ -18,5 +18,7 @@
         </ImageView>
         <Text layoutX="46.0" layoutY="204.0" strokeType="OUTSIDE" strokeWidth="0.0" text="please pay attention :If you can not find the user name of the user you want, you can visit all the existing users by selecting the All users option" wrappingWidth="394.1367492675781" />
         <Button fx:id="AllUserButton" layoutX="469.0" layoutY="194.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="98.0" style="-fx-background-color: #1c93c4;" text="All Users" textFill="WHITE" />
+        <Text fx:id="SearchUserNameWarning" fill="RED" layoutX="46.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="374.39999999999986" />
+        <Button fx:id="sideMenu" layoutX="468.0" layoutY="351.0" mnemonicParsing="false" onAction="#sideMenuButton" prefHeight="26.0" prefWidth="98.0" style="-fx-background-color: #1c93c4;" text="sideMenu" textFill="WHITE" />
     </children>
 </AnchorPane>

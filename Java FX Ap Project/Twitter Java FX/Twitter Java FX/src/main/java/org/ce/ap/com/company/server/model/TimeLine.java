@@ -1,5 +1,6 @@
 package org.ce.ap.com.company.server.model;
 
+
 import org.ce.ap.com.company.server.service.AccountFile;
 import org.ce.ap.com.company.server.service.ClientHandler;
 
@@ -18,6 +19,7 @@ public class TimeLine {
     public ArrayList<Account> users;
     public ArrayList<Tweet> allTweets;
     private AccountFile usersFileManger;
+
     /**
      * constructor
      */
@@ -81,4 +83,5 @@ public class TimeLine {
         users.clear();
         users.addAll(usersFileManger.AllUsers());
     }
+
 }

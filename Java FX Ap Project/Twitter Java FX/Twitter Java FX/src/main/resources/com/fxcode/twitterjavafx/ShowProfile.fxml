@@ -1,22 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import java.net.URL?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
 <?import javafx.scene.effect.InnerShadow?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.shape.Circle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.fxcode.twitterjavafx.ShowProfile">
-   <children>
-      <Circle fx:id="circle" fill="#2197ff" layoutX="100.0" layoutY="106.0" radius="100.0" stroke="BLACK" strokeType="INSIDE" />
-      <Label fx:id="nameField" layoutX="9.0" layoutY="206.0" prefHeight="46.0" prefWidth="81.0" style="-fx-background-color: #d8d8d8;" textFill="#1da1f2">
-         <effect>
-            <InnerShadow />
-         </effect>
-         <font>
-            <Font name="System Bold" size="22.0" />
-         </font>
-      </Label>
-      <Label fx:id="userNameField" layoutX="14.0" layoutY="252.0" prefHeight="17.0" prefWidth="24.0" style="-fx-background-color: #d8d8d8;" />
-   </children>
-</AnchorPane>
+<ScrollPane fx:id="scrollPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="436.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.twitterjavafx.ShowProfile">
+   <content>
+      <AnchorPane fx:id="anchorPane" minHeight="0.0" minWidth="0.0" prefHeight="435.0" prefWidth="598.0" styleClass="anchor">
+         <stylesheets>
+            <URL value="@applicationShowProfile.css" />
+         </stylesheets>
+         <children>
+            <Circle fx:id="Circle" fill="#2197ff" layoutX="95.0" layoutY="100.0" radius="100.0" stroke="BLACK" strokeType="INSIDE" />
+            <Label fx:id="name" layoutX="14.0" layoutY="200.0" prefHeight="46.0" prefWidth="81.0" textFill="#1da1f2">
+               <effect>
+                  <InnerShadow />
+               </effect>
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+            </Label>
+            <Label fx:id="username" layoutX="18.0" layoutY="246.0" prefHeight="24.0" prefWidth="73.0" />
+            <Label fx:id="bio" layoutX="29.0" layoutY="270.0" prefHeight="54.0" prefWidth="539.0" />
+            <Label fx:id="tweets" layoutX="8.0" layoutY="324.0" prefHeight="170.0" prefWidth="581.0" />
+         </children></AnchorPane>
+   </content>
+</ScrollPane>

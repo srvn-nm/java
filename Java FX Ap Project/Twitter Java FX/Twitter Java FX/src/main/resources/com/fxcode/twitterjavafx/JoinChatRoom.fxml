@@ -7,18 +7,20 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: White;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.fxcode.twitterjavafx.JoinChatRoom">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: White;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.twitterjavafx.ChatRoom">
     <children>
         <TextField fx:id="SearchChatRoomName" layoutX="46.0" layoutY="112.0" prefHeight="26.0" prefWidth="374.0" promptText="Chat room Name" />
-        <Button fx:id="SearchButton" layoutX="469.0" layoutY="112.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="98.0" style="-fx-background-color: #1c93c4;" text="Join Chat" textFill="WHITE" />
+        <Button fx:id="SearchButton" layoutX="469.0" layoutY="112.0" mnemonicParsing="false" onAction="#JoinEvent" prefHeight="26.0" prefWidth="98.0" style="-fx-background-color: #1c93c4;" text="Join Chat" textFill="WHITE" />
         <ImageView fitHeight="65.0" fitWidth="67.0" layoutX="-1.0" pickOnBounds="true" preserveRatio="true">
             <image>
                 <Image url="@../../../Images/logo.png" />
             </image>
         </ImageView>
         <Text layoutX="46.0" layoutY="204.0" strokeType="OUTSIDE" strokeWidth="0.0" text="please pay attention :If you can not find the name of the group you want, you can visit all the existing groups by selecting the All groups option" wrappingWidth="394.1367492675781" />
-        <Button fx:id="AllChatButton" layoutX="469.0" layoutY="194.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="98.0" style="-fx-background-color: #1c93c4;" text="All Chat" textFill="WHITE" />
+        <Button fx:id="AllChatButton" layoutX="469.0" layoutY="194.0" mnemonicParsing="false" onAction="#AllChatsEvent" prefHeight="26.0" prefWidth="98.0" style="-fx-background-color: #1c93c4;" text="All Chat" textFill="WHITE" />
         <Text layoutX="46.0" layoutY="281.0" strokeType="OUTSIDE" strokeWidth="0.0" text="You can also create new groups" wrappingWidth="246.13674926757812" />
-        <Button fx:id="CreateButton" layoutX="469.0" layoutY="263.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="98.0" style="-fx-background-color: #1c93c4;" text="Create" textFill="WHITE" />
+        <Button fx:id="SearchCreateButton" layoutX="469.0" layoutY="263.0" mnemonicParsing="false" onAction="#SearchCreateButton" prefHeight="26.0" prefWidth="98.0" style="-fx-background-color: #1c93c4;" text="Create" textFill="WHITE" />
+        <Text fx:id="SearchChatRoomNameWarning" fill="RED" layoutX="46.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="374.39999999999986" />
+        <Button fx:id="sideMenu" layoutX="469.0" layoutY="350.0" mnemonicParsing="false" onAction="#sideMenuButtonJoinChat" prefHeight="26.0" prefWidth="98.0" style="-fx-background-color: #1c93c4;" text="sideMenu" textFill="WHITE" />
     </children>
 </AnchorPane>
