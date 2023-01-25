@@ -6,6 +6,7 @@ public class Main {
 
 
     public static void main(String[] args) {
+
         int N = 7;
         int M = 10;
 
@@ -15,18 +16,18 @@ public class Main {
             adj.add(new ArrayList<>());
         }
 
-        com.company.GFG.addEdge(adj, 1, 2, 1);
-        com.company.GFG.addEdge(adj, 2, 3, 1);
-        com.company.GFG.addEdge(adj, 3, 4, 2);
-        com.company.GFG.addEdge(adj, 4, 5, 1);
-        com.company.GFG.addEdge(adj, 5, 6, 2);
-        com.company.GFG.addEdge(adj, 6, 7, 2);
-        com.company.GFG.addEdge(adj, 7, 8, 1);
-        com.company.GFG.addEdge(adj, 8, 1, 1);
-        com.company.GFG.addEdge(adj, 2, 8, 2);
-        com.company.GFG.addEdge(adj, 3, 9, 1);
+        com.company.GFG.addEdge(adj, 0, 6, 7);
+        com.company.GFG.addEdge(adj, 0, 1, 2);
+        com.company.GFG.addEdge(adj, 1, 2, 3);
+        com.company.GFG.addEdge(adj, 1, 3, 3);
+        com.company.GFG.addEdge(adj, 6, 3, 3);
+        com.company.GFG.addEdge(adj, 3, 5, 1);
+        com.company.GFG.addEdge(adj, 6, 5, 1);
+        com.company.GFG.addEdge(adj, 2, 5, 1);
+        com.company.GFG.addEdge(adj, 0, 4, 5);
+        com.company.GFG.addEdge(adj, 4, 6, 2);
 
-        com.company.GFG.findShortestPaths(adj, 1, N);
+        com.company.GFG.findShortestPaths(adj,0 , N-1);
     }
 }
 
