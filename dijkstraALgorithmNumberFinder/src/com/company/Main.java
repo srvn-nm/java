@@ -13,14 +13,14 @@ public class Main {
 
         ArrayList<ArrayList<GFG.Node> > adj = new ArrayList<>();
 
-        for (int i = 0; i <= N; i++) {
+        for (int i = 0; i < N; i++) {
             adj.add(new ArrayList<>());
         }
 
-        for (int i = 0; i <= M; i++) {
+        for (int i = 0; i < M; i++) {
             Scanner sc2 = new Scanner(System.in);
             String[] line2 = sc.nextLine().split(" ");
-            com.company.GFG.addEdge(adj, Integer.parseInt(line[0]), Integer.parseInt(line[1]), Integer.parseInt(line[2]));
+            com.company.GFG.addEdge(adj, Integer.parseInt(line2[0]), Integer.parseInt(line2[1]), Integer.parseInt(line2[2]));
         }
 //        com.company.GFG.addEdge(adj, 0, 6, 7);
 //        com.company.GFG.addEdge(adj, 0, 1, 2);
@@ -33,7 +33,7 @@ public class Main {
 //        com.company.GFG.addEdge(adj, 0, 4, 5);
 //        com.company.GFG.addEdge(adj, 4, 6, 2);
 
-        com.company.GFG.findShortestPaths(adj,0 , N-1);
+        com.company.GFG.findShortestPaths(adj, N-1);
     }
 }
 
@@ -109,7 +109,7 @@ class GFG {
     }
 
     static void
-    findShortestPaths(ArrayList<ArrayList<Node> > adj, int s, int n) {
+    findShortestPaths(ArrayList<ArrayList<Node>> adj, int n) {
 
         int[] dist = new int[n + 5];
 
@@ -121,7 +121,7 @@ class GFG {
         for (int i = 0; i <= n; i++)
             paths[i] = 0;
 
-        dijkstra(adj, s, n, dist, paths);
+        dijkstra(adj, 0, n, dist, paths);
 
         System.out.print(paths[n]);
     }
