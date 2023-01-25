@@ -1,8 +1,121 @@
 package com.company;
 
+import java.util.*;
+
 public class Main {
 
+
     public static void main(String[] args) {
-	// write your code here
+        int N = 7;
+        int M = 10;
+
+        ArrayList<ArrayList<GFG.Node> > adj = new ArrayList<>();
+
+        for (int i = 0; i <= N; i++) {
+            adj.add(new ArrayList<>());
+        }
+
+        com.company.GFG.addEdge(adj, 1, 2, 1);
+        com.company.GFG.addEdge(adj, 2, 3, 1);
+        com.company.GFG.addEdge(adj, 3, 4, 2);
+        com.company.GFG.addEdge(adj, 4, 5, 1);
+        com.company.GFG.addEdge(adj, 5, 6, 2);
+        com.company.GFG.addEdge(adj, 6, 7, 2);
+        com.company.GFG.addEdge(adj, 7, 8, 1);
+        com.company.GFG.addEdge(adj, 8, 1, 1);
+        com.company.GFG.addEdge(adj, 2, 8, 2);
+        com.company.GFG.addEdge(adj, 3, 9, 1);
+
+        com.company.GFG.findShortestPaths(adj, 1, N);
+    }
+}
+
+class GFG {
+
+    static class Node implements Comparator<Node> {
+
+        public int node;
+
+        public int cost;
+
+        public Node() {}
+
+        public Node(int node, int cost) {
+            this.node = node;
+            this.cost = cost;
+        }
+
+        @Override
+        public int compare(Node node1, Node node2) {
+            return Integer.compare(node1.cost, node2.cost);
+        }
+    }
+
+
+    static void addEdge(ArrayList<ArrayList<Node> > adj, int x, int y, int w) {
+        adj.get(x).add(new Node(y, w));
+        adj.get(y).add(new Node(x, w));
+    }
+
+    static void dijkstra(ArrayList<ArrayList<Node> > adj, int src, int n, int[] dist, int[] paths) {
+
+        PriorityQueue<Node> pq = new PriorityQueue<>(n + 1, new Node());
+
+        Set<String> settled = new HashSet<>();
+
+        pq.add(new Node(src, 0));
+
+        dist[src] = 0;
+        paths[src] = 1;
+
+        while (!pq.isEmpty()) {
+
+            int u = pq.peek().node;
+
+            int d = pq.peek().cost;
+
+            pq.poll();
+
+            for (int i = 0; i < adj.get(u).size(); i++) {
+                int to = adj.get(u).get(i).node;
+                int cost = adj.get(u).get(i).cost;
+
+                if (settled.contains(to + " " + u))
+                    continue;
+
+                if (dist[to] > dist[u] + cost) {
+
+                    pq.add(new Node(to, d + cost));
+
+                    dist[to] = dist[u] + cost;
+
+                    paths[to] = paths[u];
+                }
+
+                else if (dist[to] == dist[u] + cost) {
+                    paths[to] = (paths[to] + paths[u]);
+                }
+
+                settled.add(to + " " + u);
+            }
+        }
+    }
+
+    static void
+    findShortestPaths(ArrayList<ArrayList<Node> > adj, int s, int n) {
+
+        int[] dist = new int[n + 5];
+
+        int[] paths = new int[n + 5];
+
+        for (int i = 0; i <= n; i++)
+            dist[i] = Integer.MAX_VALUE;
+
+        for (int i = 0; i <= n; i++)
+            paths[i] = 0;
+
+        dijkstra(adj, s, n, dist, paths);
+
+        System.out.print(paths[n]);
     }
 }
