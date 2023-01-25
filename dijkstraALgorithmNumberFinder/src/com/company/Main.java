@@ -6,9 +6,10 @@ public class Main {
 
 
     public static void main(String[] args) {
-
-        int N = 7;
-        int M = 10;
+        Scanner sc = new Scanner(System.in);
+        String[] line = sc.nextLine().split(" ");
+        int N = Integer.parseInt(line[0]);
+        int M = Integer.parseInt(line[1]);
 
         ArrayList<ArrayList<GFG.Node> > adj = new ArrayList<>();
 
@@ -16,16 +17,21 @@ public class Main {
             adj.add(new ArrayList<>());
         }
 
-        com.company.GFG.addEdge(adj, 0, 6, 7);
-        com.company.GFG.addEdge(adj, 0, 1, 2);
-        com.company.GFG.addEdge(adj, 1, 2, 3);
-        com.company.GFG.addEdge(adj, 1, 3, 3);
-        com.company.GFG.addEdge(adj, 6, 3, 3);
-        com.company.GFG.addEdge(adj, 3, 5, 1);
-        com.company.GFG.addEdge(adj, 6, 5, 1);
-        com.company.GFG.addEdge(adj, 2, 5, 1);
-        com.company.GFG.addEdge(adj, 0, 4, 5);
-        com.company.GFG.addEdge(adj, 4, 6, 2);
+        for (int i = 0; i <= M; i++) {
+            Scanner sc2 = new Scanner(System.in);
+            String[] line2 = sc.nextLine().split(" ");
+            com.company.GFG.addEdge(adj, Integer.parseInt(line[0]), Integer.parseInt(line[1]), Integer.parseInt(line[2]));
+        }
+//        com.company.GFG.addEdge(adj, 0, 6, 7);
+//        com.company.GFG.addEdge(adj, 0, 1, 2);
+//        com.company.GFG.addEdge(adj, 1, 2, 3);
+//        com.company.GFG.addEdge(adj, 1, 3, 3);
+//        com.company.GFG.addEdge(adj, 6, 3, 3);
+//        com.company.GFG.addEdge(adj, 3, 5, 1);
+//        com.company.GFG.addEdge(adj, 6, 5, 1);
+//        com.company.GFG.addEdge(adj, 2, 5, 1);
+//        com.company.GFG.addEdge(adj, 0, 4, 5);
+//        com.company.GFG.addEdge(adj, 4, 6, 2);
 
         com.company.GFG.findShortestPaths(adj,0 , N-1);
     }
