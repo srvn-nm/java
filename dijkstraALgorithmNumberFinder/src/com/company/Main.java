@@ -11,7 +11,7 @@ public class Main {
         int N = Integer.parseInt(line[0]);
         int M = Integer.parseInt(line[1]);
 
-        ArrayList<ArrayList<GFG.Node> > adj = new ArrayList<>();
+        ArrayList<ArrayList<graph.Node> > adj = new ArrayList<>();
 
         for (int i = 0; i < N; i++) {
             adj.add(new ArrayList<>());
@@ -19,38 +19,38 @@ public class Main {
 
         for (int i = 0; i < M; i++) {
             String[] line2 = sc.nextLine().split(" ");
-            com.company.GFG.addEdge(adj, Integer.parseInt(line2[0]), Integer.parseInt(line2[1]), Integer.parseInt(line2[2]));
+            graph.addEdge(adj, Integer.parseInt(line2[0]), Integer.parseInt(line2[1]), Integer.parseInt(line2[2]));
         }
 
-        com.company.GFG.findShortestPaths(adj, N-1);
+        graph.findShortestPaths(adj, N-1);
     }
 }
 
-class GFG {
+class graph {
 
     static class Node implements Comparator<Node> {
 
         public int node;
 
-        public int cost;
+        public int weight;
 
         public Node() {}
 
-        public Node(int node, int cost) {
+        public Node(int node, int weight) {
             this.node = node;
-            this.cost = cost;
+            this.weight = weight;
         }
 
         @Override
         public int compare(Node node1, Node node2) {
-            return Integer.compare(node1.cost, node2.cost);
+            return Integer.compare(node1.weight, node2.weight);
         }
     }
 
 
-    static void addEdge(ArrayList<ArrayList<Node> > adj, int x, int y, int w) {
-        adj.get(x).add(new Node(y, w));
-        adj.get(y).add(new Node(x, w));
+    static void addEdge(ArrayList<ArrayList<Node> > adj, int x, int y, int d) {
+        adj.get(x).add(new Node(y, d));
+        adj.get(y).add(new Node(x, d));
     }
 
     static void dijkstra(ArrayList<ArrayList<Node>> adj, int n, int[] dist, int[] paths) {
@@ -68,13 +68,13 @@ class GFG {
 
             int u = pq.peek().node;
 
-            int d = pq.peek().cost;
+            int d = pq.peek().weight;
 
             pq.poll();
 
             for (int i = 0; i < adj.get(u).size(); i++) {
                 int to = adj.get(u).get(i).node;
-                int cost = adj.get(u).get(i).cost;
+                int cost = adj.get(u).get(i).weight;
 
                 if (settled.contains(to + " " + u))
                     continue;
